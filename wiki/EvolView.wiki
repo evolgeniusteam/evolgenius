@@ -1,4 +1,5 @@
 #summary EvolView: an online phylogenetic tree viewer and customization tool
+#sidebar TableOfContents
 
 https://img.skitch.com/20111215-t3c4in9n21fcgxjccess4b499b.png
 
