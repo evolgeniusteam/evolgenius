@@ -1,4 +1,4 @@
-[Documentation]
+[Documentation Documentation of EvolGenius]
   * [EvolView EvolView: Online phylogenetic tree viewer and customization tool]
     * [EvolViewQuickStart A quick start]
       * [EvolViewAddNewTree Add a new tree to a new project]
