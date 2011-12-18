@@ -1,0 +1,25 @@
+#summary add bar plots to the tree (next to the leaf labels)
+
+== add bar plots to the tree (next to the leaf labels) ==
+
+Here we'll add some bar plots to the tree; the bars will be plotted next to the leaf labels.
+
+  * first of all, click the "bar plots" icon:
+    https://img.skitch.com/20111210-rj4wiqy5gug4p7baxwj3r8ihyc.png
+  * choose a name for the dataset and copy and paste the following to the text area in the popup dialog box:
+    <pre>
+ ##barplots
+!groups	a,b,c
+!colors	darkblue,darkgreen,darkred
+!showLegends	0
+!plotwidth	100
+!align
+!grid
+chicken	2,3,1
+mouse	8,9,2
+human	20,3,4
+chimp	10,20,1
+rat	4,6,5
+</pre>
+
+||here is how the bars look like||https://img.skitch.com/20111210-ca3fd11wue8rgtc1g3igq91kf4.png||
