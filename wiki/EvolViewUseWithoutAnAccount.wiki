@@ -1,0 +1,5 @@
+#summary use without an account
+
+== Use without an account ==
+If you're not interested in creating a new account, just click the "Use without an account" button:
+    https://img.skitch.com/20111209-bnb6b2uj8rq67rmg9wu9puhrc5.png
