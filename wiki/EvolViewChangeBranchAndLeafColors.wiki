@@ -1,0 +1,46 @@
+#summary change the branch and leaf colors of the tree by uploading several datasets
+
+== change the branch and leaf colors of the tree ==
+in the following we'll add several datasets to change the appearances of the tree. 
+
+  * First of all add a dataset named "branch colors" to change the colors of the branches:
+    <pre>
+ ## lines start with # are annotations; you can put an annotation line
+##   anywhere in this dataset, provided that the # is the first character
+##   of the line
+## let the dataset begin: all fields of a line are seperated by 'tab'
+## first all, color all branches with 'grey'
+human,chicken	grey	ad
+## and then highlight the branches connecting human and chimp
+human,chimp	red	ad
+</pre>
+    https://img.skitch.com/20111210-bypa16wr6xhtswef4k56g6cd8x.png
+
+||before applying the dataset||https://img.skitch.com/20111210-jjm2yfbqcef7itsrufs243s551.png||
+||after||https://img.skitch.com/20111210-pxfuu53dd9xwfyftwjgyw6hcge.png||
+
+  * then add another dataset to change colors of the tree leaves to match the colors of their corresponding branches:
+    https://img.skitch.com/20111210-c8fg13rrsc21n26rw76myx4ssf.png
+    <pre>
+ ## let the dataset begin
+##   each line of the 'data part' consists three fields sparated by a 'tab' character
+##   the first field specifies the location on the tree; for example 'human' indicates
+##     the leaf node representing 'human' or the branch connecting to this leaf node, 
+##     while 'human,mouse' indicates the internal node representing the 
+##     last common ancester (LCA) of human and mouse
+##   the second field specifies the color to be applied to the corresponding nodes / branches
+##   the third field is optional; it can be one the following 'key-words':
+##     ad: the color will be applied to all decendents of the node specified by the first field
+##     prefix: the color will be applied to all leaf nodes (or connecting branches) whose names 
+##       start with the string in the first field
+##     suffix: the color will be applied to all leaf nodes (or connecting branches) whose names 
+##       end with the string in the first field
+##     anywhere: the color will be applied to all leaf nodes (or connecting branches) whose names 
+##       contain the string in the first field
+## first all, color all leaves to 'grey'
+human,chicken	grey	ad
+## then, highlight human and chimp with 'red'
+human,chimp	red	ad
+</pre>
+
+||after applying the dataset||https://img.skitch.com/20111210-pm6iej39x11iiiq7yq2m7q5ae6.png||
