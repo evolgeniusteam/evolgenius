@@ -1,0 +1,22 @@
+#summary add colored objects/ shapes to the tree (next to the leaf labels)
+
+== add colored objects/ shapes to the tree (next to the leaf labels) ==
+
+Here we'll add a dataset called "color strips / colored shapes".
+
+  * click the "color strips" icon:
+    https://img.skitch.com/20111210-r8s6ced9id8xni8k6txmyuaxqf.png
+  * copy and paste the following to the text area in the popup dialog box:
+    <pre>
+ ##color strips
+!groups	a,b,c,d
+!colors	blue,green,grey,red
+!type	rect,circle,star,strip
+!showlegends	1
+human	red,green,blue,purple
+chimp	purple,darkred,lightgreen,lightblue
+mouse	lightblue,yellow
+chicken	darkgreen,grey,pink,grey
+rat	grey,orange,pink,orange
+</pre>
+||after adding the dataset||https://img.skitch.com/20111210-eeda9ce9bpxuaqt8bq3ati4ngb.png||
