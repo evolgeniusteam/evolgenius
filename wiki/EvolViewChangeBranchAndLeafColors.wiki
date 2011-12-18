@@ -1,4 +1,5 @@
 #summary change the branch and leaf colors of the tree by uploading several datasets
+#sidebar TableOfContents
 
 == change the branch and leaf colors of the tree ==
 in the following we'll add several datasets to change the appearances of the tree. 
