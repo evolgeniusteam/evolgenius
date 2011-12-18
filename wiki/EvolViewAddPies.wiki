@@ -1,4 +1,5 @@
 #summary add pie charts to the tree
+#sidebar TableOfContents
 
 == add pie charts to the tree ==
 
