@@ -1,0 +1,18 @@
+#summary the toolbar
+
+== the toolbar ==
+
+The toolbar consists of several tabs, each in turns consists of a collection of buttons and widgets.
+ 
+So far there are four tabs in the toolbar:
+
+  * the "Basic" tab
+     https://img.skitch.com/20111209-8ywgdd38j63xwp2ktj71axr2ms.png
+  * the "Advanced" tab
+    https://img.skitch.com/20111209-t8kqe4x47b3rd5w3wepnqj6ukc.png
+  * the "Date upload" tab
+    https://img.skitch.com/20111209-ch119sdbyks6cusa827ug4bja9.png
+  * the "Export" tab
+    https://img.skitch.com/20111209-c4cbhtydw529xn6x7mx9tmqka2.png
+
+The functions of the icons are quite straightforward; mouse over the icons to show tooltips.
