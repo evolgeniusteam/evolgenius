@@ -1,0 +1,16 @@
+#summary get start with EvolView
+
+== get start with EvolView ==
+
+The "app" page consists mainly six components:
+
+    https://img.skitch.com/20111209-cuft3734nf1knmqy8ykewcrqx4.png
+
+  # a header bar. Several widgets are included, including 
+    * a "account setting" button; for registered users only
+    * a "Logout" button.
+  # a logo (may be changed over time)
+  # a browser panel. Projects and tress for current user will be shown here. Datasets of activated trees will be also shown.
+  # a disclosure panel. Click it to hide/ show the logo and the browser panel (to maximize the canvas area (6)).
+  # a tool bar.
+  # a canvas to display the active tree.
