@@ -1,6 +1,23 @@
 #summary supported phylogenetic tree formats
 
 == supported input formats ==
+  * [http://en.wikipedia.org/wiki/Newick_format newick]
+  * [http://phylosoft.org/NHX/ nhx]
+  * [http://www.bioperl.org/wiki/NEXUS_multiple_alignment_format#Tree nexus]
+  * [http://www.phyloxml.org/ phyloXML]
+
+== supported output formats (text files) ==
+  * [http://en.wikipedia.org/wiki/Newick_format newick]
+  * [http://phylosoft.org/NHX/ nhx]
+  * [http://www.bioperl.org/wiki/NEXUS_multiple_alignment_format#Tree nexus]
+  * [http://www.phyloxml.org/ phyloXML]
 
 
-== supported output formats ==
+== supported output formats (graphical files) ==
+  * pdf
+  * ps
+  * eps
+  * svg
+  * png
+  * jpeg / jpg
+  * tiff / tif
