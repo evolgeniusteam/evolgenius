@@ -26,4 +26,5 @@
     * [GeneAgeExplorerIntro to be announced]
   * [DeveloperGuide Developer's guide]
     * [DeveloperGuideSetupIDE Setup IDE]
+    * [DeveloperGuideCreateNewProject Create a new project]
     * [DeveloperGuideOpenExistingProject Import / open existing project]
