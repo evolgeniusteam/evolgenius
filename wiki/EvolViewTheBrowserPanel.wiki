@@ -131,7 +131,7 @@ then a dialog box will popup; edit the contents of the existing dataset and clic
   https://img.skitch.com/20111121-b5h33ckqej4w3ymkwc9fciiggg.png
 
 *_Please note:_*
-  *if the dataset isn't active, re- submitting will activated it
+  * if the dataset isn't active, re- submitting will activated it
   * if the name is changed, the dataset will be submitted as a new one, regardless whether or the not contents are changed
 
 ==== change the order of the datasets (and the displaying order as well) ====
