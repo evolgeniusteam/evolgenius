@@ -1,0 +1,12 @@
+#summary Setup the developing environment
+
+== Setup the IDE ==
+
+  * first, download NetBeans 7.0.1 (the Java EE bundle) from here: http://netbeans.org/downloads/index.html
+
+  * install it; during the installation, also select to install Apache Tomcat
+
+  * then download the GWT plugin for NetBeans 'org-netbeans-modules-gwt4nb-2.10.4.nbm' from here: http://java.net/projects/gwt4nb/downloads
+
+  * install this plugin in NetBeans
+    https://img.skitch.com/20111221-b33kpsc3a95hygxgqgs46ejy8w.png
