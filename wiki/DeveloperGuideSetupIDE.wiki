@@ -14,5 +14,4 @@
     || step 2 || https://img.skitch.com/20111221-fxrs3ni5q4pq4p1s9urjbp1ir2.png ||
     || step 3 || https://img.skitch.com/20111221-jjdd9ceqxwci3p9am2q7eeed1r.png ||
 
-  * finally, download [http://google-web-toolkit.googlecode.com/files/gwt-2.3.0.zip Google Web Toolkit 2.3]  and unzip it to anywhere you want on your hard drive.
-    
+  * download [http://google-web-toolkit.googlecode.com/files/gwt-2.3.0.zip Google Web Toolkit 2.3]  and unzip it to anywhere you want on your hard drive.
