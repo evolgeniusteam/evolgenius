@@ -24,3 +24,6 @@
     * [KaKsCalcIntro to be added]
   * [GeneAgeExplorer GeneAgeExplorer: explore gene ages using various methods]
     * [GeneAgeExplorerIntro to be announced]
+  * [DeveloperGuide Developer's guide]
+    * [DeveloperGuideSetupIDE Setup IDE]
+    * [DeveloperGuideOpenExistingProject Import / open existing project]
