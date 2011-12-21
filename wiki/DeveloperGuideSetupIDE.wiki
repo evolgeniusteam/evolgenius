@@ -10,3 +10,5 @@
 
   * install this plugin in NetBeans
     https://img.skitch.com/20111221-b33kpsc3a95hygxgqgs46ejy8w.png
+    https://img.skitch.com/20111221-fxrs3ni5q4pq4p1s9urjbp1ir2.png
+    
