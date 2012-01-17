@@ -1,0 +1,11 @@
+#summary What's new.
+
+== What's new ==
+
+
+==== Build# 380; Jan 17, 2012 ====
+
+  * zoom in and out at the mouse pointer
+  * fix a bug at parsing trees in PhyloXML format
+  * add statistics on users' visits per month (click the EvolView logo at the login page to view the statistics)
+  * add more interactivity with the tree branches
