@@ -1,6 +1,6 @@
 [Documentation Documentation of EvolGenius]
   * [EvolView EvolView: Online phylogenetic tree viewer and customization tool]
-    * [EvolViewWhatisNew What's new? !!]
+    * [EvolViewWhatisNew What's new]
     * [EvolViewQuickStart A quick start]
       * [EvolViewAddNewTree Add a new tree to a new project]
       * [EvolViewChangeBranchAndLeafColors Change branch and leaf colors]
