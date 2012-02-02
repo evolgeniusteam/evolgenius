@@ -2,7 +2,8 @@
 
 == What's new ==
 
-==== Build# 390; Feb 2, 2012 ====
+==== Build# 400; Feb 2, 2012 ====
+  * the last active tree will be loaded automatically when sign in; however, if the last active tree is in project "DEMOS", no tree will be loaded
   * better compatibility (import/ export) with the following formats: nexus, phyloXML; better support for internal branches from imported trees
   * new download popup panel
 
