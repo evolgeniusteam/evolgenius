@@ -4,7 +4,7 @@
   * [http://en.wikipedia.org/wiki/Newick_format newick/ phylip]
   * [http://phylosoft.org/NHX/ nhx]
   * [http://www.bioperl.org/wiki/NEXUS_multiple_alignment_format#Tree nexus]
-  * [http://www.phyloxml.org/ phyloXML]
+  * [http://www.phyloxml.org/ phyloXML] (partial)
 
 == supported output formats (text files) ==
   * [http://en.wikipedia.org/wiki/Newick_format newick]
@@ -15,8 +15,6 @@
 
 == supported output formats (graphical files) ==
   * pdf
-  * ps
-  * eps
   * svg
   * png
   * jpeg / jpg
