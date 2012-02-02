@@ -2,6 +2,9 @@
 
 == What's new ==
 
+==== Build# 390; Feb 2, 2012 ====
+  * better compatibility (import/ export) with the following formats: nexus, phyloXML; better support for internal branches from imported trees
+  * new download popup panel
 
 ==== Build# 380; Jan 17, 2012 ====
 
