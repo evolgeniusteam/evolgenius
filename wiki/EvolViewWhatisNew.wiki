@@ -2,6 +2,10 @@
 
 == What's new ==
 
+==== Build# 412; Feb 14, 2012 ====
+  * fix several bugs on submitting datasets to trees;
+  * fix a bug on parsing "legend"-related information from datasets
+
 ==== Build# 400; Feb 2, 2012 ====
   * the last active tree will be loaded automatically when sign in; however, if the last active tree is in project "DEMOS", no tree will be loaded
   * better compatibility (import/ export) with the following formats: nexus, phyloXML; better support for internal branches from imported trees
