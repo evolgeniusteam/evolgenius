@@ -28,4 +28,4 @@ Every time you login, the password you enter will be encrypted again using the s
 
 === Activation code is required at your first login ===
 On your first login, you'll be prompted for an "activation code", which can be found in the email sent to you. If you cannot find it in the email or didn't get the email at all, please send an email to ####@gmail.com using the same email address that you created the new account.
-    https://img.skitch.com/20111121-84yh5cuqhcurbhsdfpy2knj91t.png
+    https://img.skitch.com/20120215-npmm2xe578b6wk7y6bx9erg6tt.png
