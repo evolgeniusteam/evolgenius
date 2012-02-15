@@ -15,7 +15,7 @@ To sign up, click the "Create an account" button on the top of the "login" page:
      https://img.skitch.com/20111121-e1e61cb8nwe5qdd5nju3ffsdfp.png
 
 Then fill the form in the popup dialog box and click "Create my account"; all fields with "*`*`*" are mandatory.
-    https://img.skitch.com/20111121-8r3k4fp5paixqjn4487t42q9ab.png
+    https://img.skitch.com/20120215-f51gs1d5gp1ypsac64nsiygnh4.png
 An email will be sent to you if your new account is successfully created on our server.
 
 === What if the password I choose is the same for my Gmail or even my bank account? ===
