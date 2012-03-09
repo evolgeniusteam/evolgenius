@@ -1,0 +1,7 @@
+#summary One-sentence summary of this page.
+
+== To do list ==
+
+=== March 9, 2012 ===
+
+ * change the plot to fit canvas when switch to a new plot mode
