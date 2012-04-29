@@ -16,7 +16,8 @@ To sign up, click the "Create an account" button on the top of the "login" page:
 
 Then fill the form in the popup dialog box and click "Create my account"; all fields with "*`*`*" are mandatory.
     https://img.skitch.com/20120215-f51gs1d5gp1ypsac64nsiygnh4.png
-An email will be sent to you if your new account is successfully created on our server.
+
+If there is no errors occurred during the registration, a dialogbox will popup and inform the user that the new account is ready!!
 
 === What if the password I choose is the same for my Gmail or even my bank account? ===
 Please note that for privacy reasons, we would *_never_* save the original password string you entered on our server; instead, only an encrypted version is kept (see below). 
@@ -25,7 +26,3 @@ Please note that for privacy reasons, we would *_never_* save the original passw
 As far as we can tell, the encryption cannot be reverse engineered so that the original password string is only known to yourself.
 
 Every time you login, the password you enter will be encrypted again using the same algorithm, then the encrypted string will be compared with the one on our server. You'll login successfully if the two strings match.
-
-=== Activation code is required at your first login ===
-On your first login, you'll be prompted for an "activation code", which can be found in the email sent to you. If you cannot find it in the email or didn't get the email at all, please send an email to ####@gmail.com using the same email address that you created the new account.
-    https://img.skitch.com/20120215-npmm2xe578b6wk7y6bx9erg6tt.png
