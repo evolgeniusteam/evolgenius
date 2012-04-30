@@ -2,6 +2,11 @@
 
 === To do list ===
 
+==== Apr 30, 2012 ====
+ * add full-support for PhyloXML format
+  # parse annotations embedded in PhyloXML
+  # load multiple trees from PhyloXML (into the same project)
+
 ==== March 9, 2012 ====
 
  * change the plot to fit canvas when switch to a new plot mode
