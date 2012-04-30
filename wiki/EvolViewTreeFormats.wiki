@@ -4,7 +4,7 @@
   * [http://en.wikipedia.org/wiki/Newick_format newick/ phylip]
   * [http://phylosoft.org/NHX/ nhx]
   * [http://www.bioperl.org/wiki/NEXUS_multiple_alignment_format#Tree nexus]
-  * [http://www.phyloxml.org/ phyloXML] (partial)
+  * [http://www.phyloxml.org/ phyloXML] (partial; embedded annotations will not be parsed by EvolView)
 
 == supported output formats (text files) ==
   * [http://en.wikipedia.org/wiki/Newick_format newick]
