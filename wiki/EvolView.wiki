@@ -9,4 +9,4 @@ https://img.skitch.com/20111215-t3c4in9n21fcgxjccess4b499b.png
 
 Select a topic on the sidebar to continue.
 
-_note: current documentation is in beta_
+_note: current documentation is still in beta_
