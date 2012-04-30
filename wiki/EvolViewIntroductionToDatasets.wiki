@@ -1,7 +1,5 @@
 #summary datasets in the EvolView
 
-= datasets in EvolView =
-
 <wiki:toc max_depth="5" /> 
 
 == A dataset typically consists of three sections ==
