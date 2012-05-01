@@ -20,7 +20,7 @@ Here are a list of KA-pairs common to all datasets; dataset-specific KA-pairs wi
 
 || *Key* (case insensitive) || *Value* || *Description* ||
 || `!`Groups or `!`LegendText ||comma separated text|| Legend texts; for example 'group_a,group_b,group_c'||
-|| `!`LegndStyle or `!`Style  || rect or circle or star || shapes to be plotted before the legend texts; default = rect ||
+|| `!`LegendStyle or `!`Style  || rect or circle or star || shapes to be plotted before the legend texts; default = rect ||
 || `!`LegendColors or `!`Colors ||comma separated color codes or names|| colors to be applied to the shapes specified by !LegendStyle; for example 'red,green,yellow' ; note the number of colors should match the number of legend fields||
 || `!`Title or `!`Legend || text || title of the legend; default = name of the dataset || 
 || `!`ShowLegends || 0 or 1 || 0 : hide legends; 1 : show legends ||
