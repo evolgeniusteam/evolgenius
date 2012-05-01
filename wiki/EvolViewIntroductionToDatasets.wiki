@@ -69,7 +69,8 @@ Examples (to be added)
 Additional Key-Value pairs for bar plots:
 || *Key* (case insensitive) || *Value* || *Description* ||
 || `!`align or `!`alignIndividualColumn || none || align individual columns if the bars are stacked ||
-|| `!`grid || none || show a grid ||
+|| `!`grid || none || show a background grid ||
+|| `!`gridlabel or `!`axis || none || show the values corresponding to the grid lines ||
 || `!`Fanplot or `!` Fan || none || see examples bellow ||
 
 *_Please note:_*
