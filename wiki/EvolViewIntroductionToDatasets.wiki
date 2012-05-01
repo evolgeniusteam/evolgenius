@@ -57,6 +57,8 @@ Additional Key-Value pairs for pie charts:
 || *Key* (case insensitive) || *Value* || *Description* ||
 || `!`minradius || any float number > 0 || minimal pixel radius of the pies ||
 || `!`maxradius || any float number > 0 || maximal pixel radius of the pies ||
+|| `!`area || none || use user inputs as the areas of the pie charts ||
+|| `!`radius || none || use user inputs as the radiuses of the pie charts ||
 
 *_Please note:_* 
     * the "data" part of this dataset can only contain two columns of tab-delimited texts; the third column, if presents, will be ignored
