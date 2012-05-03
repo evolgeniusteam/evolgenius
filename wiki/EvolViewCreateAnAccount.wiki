@@ -20,9 +20,9 @@ Then fill the form in the popup dialog box and click "Create my account"; all fi
 If there is no errors occurred during the registration, a dialogbox will popup and inform the user that the new account is ready!!
 
 === What if the password I choose is the same for my Gmail or even my bank account? ===
-Please note that for privacy reasons, we would *_never_* save the original password string you entered on our server; instead, only an encrypted version is kept (see below). 
+Please note that for security and privacy reasons, we would *_never_* save the original password string you entered on our server; instead, only an encrypted version is kept (see below). 
     https://img.skitch.com/20111121-rpfgxiimrbeqt4c8ms4isiydkm.png
 
 As far as we can tell, the encryption cannot be reverse engineered so that the original password string is only known to yourself.
 
-Every time you login, the password you enter will be encrypted again using the same algorithm, then the encrypted string will be compared with the one on our server. You'll login successfully if the two strings match.
+Every time you login, the password that you enter will be encrypted again using the same algorithm, then the encrypted string will be compared with the one on our server. You'll login successfully if the two strings match.
