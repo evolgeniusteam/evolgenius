@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-=== To do list ===
+=== To do list/ future directions ===
 
 ==== Apr 30, 2012 ====
  * add full-support for PhyloXML format
