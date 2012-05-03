@@ -2,7 +2,7 @@
   * [EvolView EvolView: Online phylogenetic tree viewer and customization tool]
     * [EvolViewSupportedBrowsers Supported browsers]
     * [EvolViewWhatisNew What's new]
-    * [EvolViewToDoList Todos]
+    * [EvolViewToDoList TODOs/ future directions]
     * [EvolViewQuickStart A quick start]
       * [EvolViewAddNewTree Add a new tree to a new project]
       * [EvolViewChangeBranchAndLeafColors Change branch and leaf colors]
