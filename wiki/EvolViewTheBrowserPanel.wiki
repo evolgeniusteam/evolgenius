@@ -37,7 +37,7 @@ please note that the new color will be saved to server if the user has logged in
 
 ==== hide the project "DEMOS" ====
 by default a project "DEMOS" containing two example trees is added to the "browser panel", regardless login status.
-    https://img.skitch.com/20111121-b8puk61a8hpeucx8u2tyjudu12.png
+    https://img.skitch.com/20120508-1pt2xysca5yi796qrg69w3wfca.png
 For users without accounts, there is no way to hide the "DEMOS".
  
 For registered users, go to "Account settings" and then click "Load sample project and tree?". The "DEMOS" project will not be loaded on  your *_next login_*.
@@ -64,14 +64,14 @@ To activate a tree, simply click the tree name on the tree panel:
 https://img.skitch.com/20111121-prxxyqxgutxkkprmeastnamnbf.png
 
 Then a tree is activated:
-https://img.skitch.com/20111121-r2g21881cmpnu763fnm7k9h2n2.png
+https://img.skitch.com/20120508-mt28gmx3t9x2f7mm2m2ni46b2i.png
 
 ==== add a new tree ====
 To add a new tree, click the folder icon on the tool bar:
     https://img.skitch.com/20111209-m25dr7jy3sqj4eqcqm2w6py6nh.png
 
 A popup dialog box will show:
-    https://img.skitch.com/20111209-tq43f8g469rhftuj5xw7x343x.png
+    https://img.skitch.com/20120508-11eren4mbh69atwwxhtdumjrqe.png
 
 Fill in all the text boxes and then click the "Submit" button to add a new tree.
 
@@ -85,8 +85,8 @@ Please read here first to know more about datasets.
  
 Datasets can only be added to active trees. If the active tree isn't activated yet, activate it first.
  
-To add / upload a dataset, go to "Data upload" tab of the tool bar, and click the icon matching the dataset to be uploaded:
-    https://img.skitch.com/20111121-c4kmenbie1umrqccmyhehiuhqn.png
+To add / upload a dataset, go to "Annotation upload" tab of the tool bar, and click the icon matching the dataset to be uploaded:
+    https://img.skitch.com/20120508-jp6pka97rdij8xrgedjuskf9ur.png
 
 then fill all the text fields in the popup dialog box and click "Submit":
     https://img.skitch.com/20111121-pyfn9q8yhabeds2wt7an6fhqgr.png
