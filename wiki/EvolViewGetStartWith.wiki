@@ -4,7 +4,7 @@
 
 The "app" page consists mainly six components:
 
-    https://img.skitch.com/20120215-mw4efjigpsjkar932b1x4axmb4.png
+    https://img.skitch.com/20120508-ee8d914sgumwa354p1n1irctg4.png
 
   # a header bar. Several widgets are included, including 
     * a "account setting" button; for registered users only
