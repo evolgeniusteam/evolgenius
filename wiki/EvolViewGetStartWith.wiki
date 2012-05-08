@@ -12,5 +12,5 @@ The "app" page consists mainly six components:
   # a logo (may be changed over time)
   # a browser panel. Projects and tress for current user will be shown here. Datasets of activated trees will be also shown.
   # a disclosure panel. Click it to hide/ show the logo and the browser panel (to maximize the canvas area (6)).
-  # a tool bar.
+  # a tool bar (contents may change over time).
   # a canvas to display the active tree.
