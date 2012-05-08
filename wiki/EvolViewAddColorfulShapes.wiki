@@ -4,8 +4,8 @@
 
 Here we'll add a dataset called "color strips / colored shapes".
 
-  * click the "color strips" icon:
-    https://img.skitch.com/20111210-r8s6ced9id8xni8k6txmyuaxqf.png
+  * click the "color strips" icon on the "Annotation upload" tab:
+    https://img.skitch.com/20120508-dsjbncxut3nc6anjsj2mi4akem.png
   * copy and paste the following to the text area in the popup dialog box:
     <pre>
  ##color strips
