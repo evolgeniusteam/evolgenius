@@ -4,7 +4,7 @@
 == change the branch and leaf colors of the tree ==
 in the following we'll add several datasets to change the appearances of the tree. 
 
-  * First of all add a dataset named "branch colors" to change the colors of the branches:
+  * First of all add a dataset named "branch colors" to change the colors of the branches by clicking the "branch colors" icon on the "Annotation upload" tab:
     <pre>
  ## lines start with # are annotations; you can put an annotation line
 ##   anywhere in this dataset, provided that the # is the first character
@@ -15,13 +15,13 @@ human,chicken	grey	ad
 ## and then highlight the branches connecting human and chimp
 human,chimp	red	ad
 </pre>
-    https://img.skitch.com/20111210-bypa16wr6xhtswef4k56g6cd8x.png
+    https://img.skitch.com/20120508-d7q48fp6fyye9x8wm81ng1ef5r.png
 
 ||before applying the dataset||https://img.skitch.com/20111210-jjm2yfbqcef7itsrufs243s551.png||
 ||after||https://img.skitch.com/20111210-pxfuu53dd9xwfyftwjgyw6hcge.png||
 
-  * then add another dataset to change colors of the tree leaves to match the colors of their corresponding branches:
-    https://img.skitch.com/20111210-c8fg13rrsc21n26rw76myx4ssf.png
+  * then add another dataset to change colors of the tree leaves to match the colors of their corresponding branches by clicking the "tree leaf colors" icon on the "Annotation upload" tab:
+    https://img.skitch.com/20120508-qb3xf2mi81x4pg694fdibi5whx.png
     <pre>
  ## let the dataset begin
 ##   each line of the 'data part' consists three fields sparated by a 'tab' character
