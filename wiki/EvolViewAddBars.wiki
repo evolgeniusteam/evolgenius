@@ -4,8 +4,8 @@
 
 Here we'll add some bar plots to the tree; the bars will be plotted next to the leaf labels.
 
-  * first of all, click the "bar plots" icon:
-    https://img.skitch.com/20111210-rj4wiqy5gug4p7baxwj3r8ihyc.png
+  * first of all, click the "bar plots" icon on the "Annotation upload" tab:
+    https://img.skitch.com/20120508-qtgjnpct88aung9g6twyey26ab.png
   * choose a name for the dataset and copy and paste the following to the text area in the popup dialog box:
     <pre>
  ##barplots
