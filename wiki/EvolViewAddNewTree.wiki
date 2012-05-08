@@ -6,8 +6,8 @@
   * at the "login" page, click "Use without an account";
     https://img.skitch.com/20111209-bnb6b2uj8rq67rmg9wu9puhrc5.png
   
-  * at the "app" page, click the folder icon (the only icon that's clickable if no tree is active):
-    https://img.skitch.com/20111209-m25dr7jy3sqj4eqcqm2w6py6nh.png
+  * at the "app" page, click the folder icon on the "Basic" tab (the only icon that's clickable if no tree is active):
+    https://img.skitch.com/20120508-tyx4n83ukny6nhqeuri4dp4rt9.png
 
   * in the popup window, enter the following contents and click the button "Submit" at the bottom:
   {{{
@@ -15,6 +15,6 @@
     Name: test tree
     Data: (chicken,((mouse,rat),(chimp,human)));
   }}}
-    https://img.skitch.com/20111209-tq43f8g469rhftuj5xw7x343x.png
+    https://img.skitch.com/20120508-11eren4mbh69atwwxhtdumjrqe.png
   * the tree will be shown as the following if there is no error in your input
     https://img.skitch.com/20111210-jjm2yfbqcef7itsrufs243s551.png
