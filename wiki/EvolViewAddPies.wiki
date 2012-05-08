@@ -7,8 +7,8 @@ From this section we'll add some more complicated datasets to the tree.
 
 First of all, some pie charts; the pies will be displayed on the tree branches.
 
-  * click the "piechart" icon
-     https://img.skitch.com/20111210-kwbfxy8irgc3gcycuqhudec8ef.png
+  * click the "piechart" icon on the "Annotation upload" tab:
+     https://img.skitch.com/20120508-khtdtwx7u1id2j4j83c5g8nwyb.png
   * copy and paste the following to the text box of the popup dialog box:
     <pre>
  ## created at may 25, 2011
