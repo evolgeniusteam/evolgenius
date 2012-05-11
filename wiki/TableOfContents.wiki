@@ -19,6 +19,7 @@
         * [EvolViewCanvas the Canvas]
     * [EvolViewIntroductionToDatasets More to read about datasets]
     * [EvolViewTreeFormats Supported phylogenetic tree formats]
+    * [ContactUs Have questions? contact us by email]
     * [EvolViewAcknowledgements Acknowledgements]
   * [PhyloGenius PhyloGenius: Genius ways of creating phylogenetic trees]
     * [PhyloGeniusIntro to be added]
