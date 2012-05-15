@@ -2,6 +2,15 @@
 
 == What's new ==
 
+==== Build# 510; May 15, 2012 (not deployed yet) ====
+  * add visualization for protein domains
+  * add automatic annotation for protein domains using tree leaf label names to query against PFAM database
+  * see here for more details: EvolViewProteinDomain
+
+==== Build# 500; May 12, 2012 ====
+  * fix a bug on parsing the bootstrap scores in newick format
+  * fix some usability issues
+
 ==== Build# 450; Apr 23, 2012 ====
   * improvement on pie-chars: now user can specify whether to use the summation of a row as the area of a pie, or the radius
   * now each plotmode/ treemode has independent translateX, Y as well as pixal per width values; and all these values will be saved on our server if a user is logged in
