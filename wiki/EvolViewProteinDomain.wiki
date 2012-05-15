@@ -157,6 +157,8 @@ https://img.skitch.com/20120515-n28738dbtg1cttsd7h3j73n94t.png
 
 https://img.skitch.com/20120515-gqcq16hy469cyjpn4s7rcku613.png
 
+by default, a random color will be assigned to a protein domain, and the color - domain relationships will be plotted in the legend. 
+
 === Available modifiers for domain visualizations ===
 The following "modifiers" are available for domain visualizations; most of them can be used in combination.
 
