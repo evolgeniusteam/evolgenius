@@ -2,7 +2,8 @@
 
 === Visualizing protein domains ===
 
-*still in beta*
+_*still in beta*_
+
 The following topics will be covered in this section:
   # Automatic retrieval of domain annotations from PFAM
   # The contents of protein domain annotations
