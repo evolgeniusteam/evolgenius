@@ -18,6 +18,7 @@
         * [EvolViewToolbar the toolbar]
         * [EvolViewCanvas the Canvas]
     * [EvolViewIntroductionToDatasets More to read about datasets]
+      * [EvolViewProteinDomain Protein domains]
     * [EvolViewTreeFormats Supported phylogenetic tree formats]
     * [ContactUs Have questions? contact us by email]
     * [EvolViewAcknowledgements Acknowledgements]
