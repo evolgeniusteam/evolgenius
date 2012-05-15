@@ -3,7 +3,7 @@
 <wiki:toc max_depth="5" /> 
 
 
-*we are still in beta, lalala*
+* this page is in beta *
 
 https://img.skitch.com/20120515-4htxrem3ca5fjsby98ppf77yp.png
 
