@@ -171,3 +171,6 @@ The following "modifiers" are available for domain visualizations; most of them 
 || `!`shadow or `!`showShadow  || 0 or 1 || 1: show drop shadow under non-PFAM-B domains; *WARNING: if shadow is on, exporting to graphical formats other than SVG is NOT functional!!* || 
 || `!`grid || none || show a background grid ||
 || `!`gridlabel or `!`axis || none || show the values (protein length) corresponding to the grid lines ||
+
+=== Known issues ===
+  * exporting to graphical formats other than SVG is not functional if 'shadow' option is on.
