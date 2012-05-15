@@ -13,7 +13,7 @@ The following topics will be covered in this section:
   # Available modifiers for the control of visualizations
   # Known issues
 
-=== Get start ===
+=== Get started ===
 To upload a dataset for domain annotations, user can simply go to the "Annotation upload" tab, and click the "protein domain" icon:
 https://img.skitch.com/20120515-1tbjeb9udj482ej4u8m5di837n.png
 
