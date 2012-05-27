@@ -7,6 +7,4 @@ https://img.skitch.com/20111215-t3c4in9n21fcgxjccess4b499b.png
 
 <g:plusone size="medium"></g:plusone>
 
-Select a topic on the sidebar to continue.
-
-_note: current documentation is still in beta_
+Select a topic on the sidebar to continue...
