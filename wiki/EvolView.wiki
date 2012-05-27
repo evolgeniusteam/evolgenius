@@ -3,7 +3,7 @@
 
 https://img.skitch.com/20111215-t3c4in9n21fcgxjccess4b499b.png
 
-[http://ogeedb.embl.de/evlatest EvolView] is an easy-to-use online tool for displaying, managing and customizing phylogenetic trees.
+[http://evolgenius.info/evolview.html EvolView] is an easy-to-use online tool for displaying, managing and customizing phylogenetic trees.
 
 <g:plusone size="medium"></g:plusone>
 
