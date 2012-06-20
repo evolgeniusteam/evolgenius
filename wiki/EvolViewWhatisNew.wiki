@@ -32,6 +32,6 @@
   * add statistics on users' visits per month (click the EvolView logo at the login page to view the statistics)
   * add more interactivity with the tree branches
 
-==== Build# 200; milestone 1; Dec 28, 2011 ====
+[EvolViewWhatisNew#milstone1]==== Build# 200; milestone 1; Dec 28, 2011 ====
   * first version available online
   * submitted to NAR web server issue 2012
