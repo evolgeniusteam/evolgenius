@@ -34,4 +34,4 @@
 
 ==== Build# 200; milestone 1; Dec 28, 2012 ====
   * first version available online
-  * submitted to NAR web server issue 2012
+  * manuscript submitted to NAR web server issue 2012
