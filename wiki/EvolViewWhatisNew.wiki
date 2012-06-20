@@ -2,7 +2,7 @@
 
 == What's new ==
 
-==== [#abc Build# 510; May 15, 2012] ====
+==== Build# 510; May 15, 2012 ====
   * add visualization for protein domains
   * add automatic annotation for protein domains using tree leaf label names to query against PFAM database
   * see here for more details: EvolViewProteinDomain
