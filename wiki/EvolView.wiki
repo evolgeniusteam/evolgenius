@@ -5,6 +5,12 @@ https://img.skitch.com/20111215-t3c4in9n21fcgxjccess4b499b.png
 
 [http://evolgenius.info/evolview.html EvolView] is an easy-to-use online tool for displaying, managing and customizing phylogenetic trees.
 
+Please cite us if you find this tool useful: 
+
+"Zhang et al. EvolView, an online tool for visualizing, annotating and managing phylogenetic trees. Nucleic Acids Res (2012) pp. 4". 
+
+Here is a link to the online version of our paper at the publisher's website: http://nar.oxfordjournals.org/content/40/W1/W569
+
 <g:plusone size="medium"></g:plusone>
 
 Select a topic on the sidebar to continue...
