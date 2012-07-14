@@ -2,6 +2,9 @@
 
 == What's new ==
 
+==== May 22, 2012 ====
+  * manuscript accepted for publication on NAR 2012 Web Server issue.
+
 ==== Build# 510; May 15, 2012 ====
   * add visualization for protein domains
   * add automatic annotation for protein domains using tree leaf label names to query against PFAM database
