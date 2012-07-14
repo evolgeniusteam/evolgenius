@@ -3,7 +3,7 @@
 == What's new ==
 
 ==== May 22, 2012 ====
-  * manuscript accepted for publication on NAR 2012 Web Server issue.
+  * manuscript accepted for publication on NAR 2012 Web Server issue. Check it out on the publisher's website: http://nar.oxfordjournals.org/content/40/W1/W569
 
 ==== Build# 510; May 15, 2012 ====
   * add visualization for protein domains
