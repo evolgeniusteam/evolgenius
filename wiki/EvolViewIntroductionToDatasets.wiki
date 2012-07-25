@@ -2,7 +2,7 @@
 
 <wiki:toc max_depth="5" /> 
 
-== A dataset typically consists of three sections ==
+== A dataset typically consists of three sections  ==
 
 A dataset typically contains three sections, annotation, modifiers and data; for example:
 
