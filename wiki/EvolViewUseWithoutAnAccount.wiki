@@ -6,3 +6,4 @@ If you're not interested in creating a new account, just click the "Use without 
 
 * Please note: *
 You _*DON'T*_ need an account to use EvolView, it's free for all users; all functionalities, except those require a connection to remote MySQL servers, are available to non-registered users.
+
