@@ -2,6 +2,9 @@
 
 == What's new ==
 
+==== April 4, 2013 ====
+  * fix a bug caused by tree like this '((a:1,b):3,(c:1,(d:1,e:3):1):2);'
+
 ==== May 22, 2012 ====
   * manuscript accepted for publication on NAR 2012 Web Server issue. Check it out on the publisher's website: http://nar.oxfordjournals.org/content/40/W1/W569
 
