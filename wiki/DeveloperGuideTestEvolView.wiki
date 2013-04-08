@@ -1,11 +1,18 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= 如何测试EvolView =
 
-如何测试EvolView
+每个新版本发布之后，需要进行以下测试，以
 
+  # 测试老的bug是否会重新出现
+  # 测试所有功能是否运行顺利
+  # 及时发现新的bug
 
 = Details =
+
+  # 测试1
+    * 可能的问题：输入下的tree时，leaf node 'b'的label可能会消失；另外，系统可能误认为此tree含有bootstrap信息
+    * 
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
