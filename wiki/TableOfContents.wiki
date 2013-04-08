@@ -32,3 +32,4 @@
     * [DeveloperGuideSetupIDE Setup IDE]
     * [DeveloperGuideCreateNewProject Create a new project]
     * [DeveloperGuideOpenExistingProject Import / open existing project]
+    * [DeveloperGuideTestEvolView test evolview]
