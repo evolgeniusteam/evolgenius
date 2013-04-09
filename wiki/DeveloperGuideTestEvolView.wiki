@@ -1,7 +1,10 @@
 #summary One-sentence summary of this page.
 
-=   =
+=  系统设置  =
+
+把evolview从一台电脑转移到另一台时，需要更改配置文件：
     war/WEB-INF/confs/sys.conf
+
 = 如何测试EvolView =
 
 每个新版本发布之后，需要进行以下测试，以
