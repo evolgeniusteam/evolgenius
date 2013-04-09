@@ -1,7 +1,7 @@
 #summary One-sentence summary of this page.
 
-=  =
-
+=   =
+    war/WEB-INF/confs/sys.conf
 = 如何测试EvolView =
 
 每个新版本发布之后，需要进行以下测试，以
