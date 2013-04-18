@@ -2,7 +2,7 @@
 
 == What's new ==
 
-==== April 4, 2013 ( to be released) ====
+==== April 18, 2013 ====
   * fix a bug caused by tree like this '((a:1,b):3,(c:1,(d:1,e:3):1):2);'
   * new features:
     # temporary users can save their trees, projects and datasets on our server up to 7 days and the keys for accessing the data are saved in browser cookies (clearing the browser cookies will lose the keys) (Note: each temporary use would have a unique ID, she / he can use it to retrieve their data by emailing it to the server administrator )
