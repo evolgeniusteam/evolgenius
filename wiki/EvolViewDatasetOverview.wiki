@@ -1,6 +1,27 @@
 == A dataset typically consists of three sections  ==
 
-A dataset typically contains three sections, annotation, modifiers and data; for example:
+  # annotation,
+  # modifiers and
+  # data
+
+For example:
+
+<pre>
+## -- here is an example dataset of a barplot; lines start with # are annotations and will not be parsed by EvolView --
+## -- the following are the modifiers --
+## -- please use TAB to separate the modifiers and their values
+!groups	group 1,group 2,group 3
+!colors	#028482,#7ABA7A,#B76EB8
+!title	Example of barplots
+!plotwidth	200
+## -- annotation can be also put here --
+## -- here comes the data --
+## -- please use TAB to separate the columns --
+A	8,13,5
+B	10,20,7
+C	8,9,7
+D	20,5,20
+</pre>
 
 === Annotations ===
 
