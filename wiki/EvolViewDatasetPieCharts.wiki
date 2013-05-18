@@ -1,0 +1,65 @@
+#summary pie charts
+
+== pie charts ==
+
+Pies will be displayed on internal and leaf branches. Here is an example:
+
+https://www.evernote.com/shard/s130/sh/4ac9180b-aa03-4906-a6c6-14b0dd69007c/238350bd06ccd18ce5733242cfc15709/res/03c0eb28-84ae-4af2-a4ff-95be2b267195/skitch.png
+
+User can upload multiple pie-chart datasets to a tree, but only one can be displayed at a time. However user can control which one should be displayed using the control panel:
+
+https://www.evernote.com/shard/s130/sh/a8c6d75b-0214-4a98-bec7-9d1d84314a7d/bccf843f2a3557eda9ea99ddc1d5cd3d/res/57dc61c8-5724-48fb-ab5c-5f4b0f5acd4e/skitch.png
+
+Supported Key-Value pairs for pie charts:
+|| *Key* (case insensitive) || *Value* || *Description* ||
+|| `!`Groups or `!`LegendText ||comma separated text|| Legend texts; for example 'group_a,group_b,group_c'||
+|| `!`LegendStyle or `!`Style  || rect or circle or star || shapes to be plotted before the legend texts; default = rect ||
+|| `!`LegendColors or `!`Colors ||comma separated color codes or names|| colors to be applied to the shapes specified by !LegendStyle; for example 'red,green,yellow' ; note the number of colors should match the number of legend fields||
+|| `!`Title or `!`Legend || text || title of the legend; default = name of the dataset || 
+|| `!`ShowLegends || 0 or 1 || 0 : hide legends; 1 : show legends ||
+|| `!`opacity || float number between 0 to 1 || opacity of the dataset ||
+|| `!`minradius || any float number > 0 || minimal pixel radius of the pies ||
+|| `!`maxradius || any float number > 0 || maximal pixel radius of the pies ||
+|| `!`area || none || use user inputs as the areas of the pie charts ||
+|| `!`radius || none || use user inputs as the radiuses of the pie charts ||
+
+*_NOTE:_* 
+  # *please always use TAB to separate the modifiers and their values.*
+  # *some modifiers should not be used in combination, e.g. !area and !radius are mutually exclusive. However if both are used (accidentally), only the last one will be used.*
+  # *if a modifier is used (accidentally) multiple tiles, only the last one will be used.*
+  # *the "data" part of this dataset can only contain two columns of tab-delimited texts; the third column, if presents, will be ignored*
+
+== Examples ==
+
+The following we will provide you some examples
+
+=== the yeast duplication tree ===
+1. the tree (in Newick format)
+{{{
+((((((((((Saccharomyces_cerevisiae:0.054377,Saccharomyces_paradoxus:0.039196)Saccharomyces_subclade:0.035915,Saccharomyces_mikatae:0.082075)Saccharomyces_subclade:0.054132,Saccharomyces_bayanus:0.128022)Saccharomyces:0.485857,Candida_glabrata:0.874698)Saccharomycetaceae_subclade:0.060179,Naumovia_castellii:0.761269)Saccharomycetaceae_subclade:0.182516,(Lachancea_waltii:0.700985,(Kluyveromyces_lactis:0.770604,Agossypii:0.758273)Kluyveromyces:0.118441)Saccharomycetaceae_subclade:0.146942)Saccharomycetaceae:1.069627,(Debaryomyces_hansenii:0.591048,Candida_albicans:0.851762)Saccharomycetales_subclade:0.866539)Saccharomycetales_subclade:0.844816,Yarrowia_lipolytica:1.745091)Saccharomycetales:0.650477,(Emericella_nidulans:0.618015,(Magnaporthe_grisea:0.446021,(Neurospora_crassa:0.412753,Gibberella_zeae:0.414866)Sordariomycetes_subclade:0.071418)Sordariomycetes:0.318914)Pezizomycotina:0.873484)Ascomycota_subclade:0.955079,Schizosaccharomyces_pombe:0.952249);
+}}}
+
+2. dataset 1: "Duplication"
+
+<pre>
+## for evolview; Yeast
+## by weihua chen; use Nature data
+!Groups	WGD,SSD
+!colors	#9F0251,#4D8963
+!legendstyle	circle
+!title	Duplication mechanism
+!opacity	0.8
+Saccharomyces_cerevisiae,Saccharomyces_paradoxus	0,19
+Saccharomyces_cerevisiae,Saccharomyces_mikatae	0,20
+Saccharomyces_cerevisiae,Saccharomyces_bayanus	0,18
+Saccharomyces_cerevisiae,Candida_glabrata	0,22
+Saccharomyces_cerevisiae,Naumovia_castellii	862,0
+Saccharomyces_cerevisiae,Lachancea_waltii	0,29
+Saccharomyces_cerevisiae,Candida_albicans	0,53
+Saccharomyces_cerevisiae,Yarrowia_lipolytica	0,26
+Saccharomyces_cerevisiae,Neurospora_crassa	0,169
+</pre>
+
+Result:
+
+https://www.evernote.com/shard/s130/sh/29da6fca-dfa6-4864-83bb-99d1011bcb4c/44cffe96fd20043d77d8b9102444c420/res/b1c470fc-02a8-4dad-a686-ce5ee7790f8c/skitch.png
