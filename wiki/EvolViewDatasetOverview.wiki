@@ -10,9 +10,10 @@ For example:
 ## -- here is an example dataset of a barplot; lines start with # are annotations and will not be parsed by EvolView --
 ## -- the following are the modifiers --
 ## -- please use TAB to separate the modifiers and their values
-!groups	group 1,group 2,group 3
+!legendText	group 1,group 2,group 3
+!legendTitle	Example of barplots
+!legendStyle	circle
 !colors	#028482,#7ABA7A,#B76EB8
-!title	Example of barplots
 !plotwidth	200
 ## -- annotation can be also put here --
 ## -- here comes the data --
@@ -22,6 +23,8 @@ B	10,20,7
 C	8,9,7
 D	20,5,20
 </pre>
+
+https://www.evernote.com/shard/s130/sh/9bc3be2f-d014-4925-9f74-0cad4c536156/2a64ca38bf299fb13ba6ba2bf8985369/res/f3a044db-136b-404f-96c0-bd135910c98a/skitch.png
 
 === Annotations ===
 
