@@ -2,6 +2,11 @@
 
 == pie charts ==
 
+*_NOTE_*
+
+_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
+
+
 Pies will be displayed on internal and leaf branches. Here is an example:
 
 https://www.evernote.com/shard/s130/sh/4ac9180b-aa03-4906-a6c6-14b0dd69007c/238350bd06ccd18ce5733242cfc15709/res/03c0eb28-84ae-4af2-a4ff-95be2b267195/skitch.png
@@ -31,7 +36,7 @@ Supported Key-Value pairs for pie charts:
 
 == Examples ==
 
-The following we will provide you some examples
+The following we will provide you some examples. You can copy & paste the tree and datasets to EvolView to reproduce the results.
 
 === the yeast duplication tree ===
 1. the tree (in Newick format)
@@ -59,6 +64,14 @@ Saccharomyces_cerevisiae,Yarrowia_lipolytica	0,26
 Saccharomyces_cerevisiae,Neurospora_crassa	0,169
 </pre>
 
+*_important:_*
+  # an internal branch / node is identified by the names of two leaf nodes; the former is the last common ancestor of the latter
+  # the values of an internal branches are separated by ",", e.g. 0,19
+  # the number of values of all internal nodes should be the same (two in this dataset)
+  # the same number of colors should be provided by "!colors" ("#9F0251,#4D8963" in this case)
+  # and the same number of "groups" should also provided by "!groups"
+
+
 https://www.evernote.com/shard/s130/sh/29da6fca-dfa6-4864-83bb-99d1011bcb4c/44cffe96fd20043d77d8b9102444c420/res/b1c470fc-02a8-4dad-a686-ce5ee7790f8c/skitch.png
 
 3. dataset 2: overlap with other duplicates
@@ -82,3 +95,5 @@ Saccharomyces_cerevisiae,Neurospora_crassa	0,0,28,143
 </pre>
 
 https://www.evernote.com/shard/s130/sh/c3955ca7-0de4-47c9-b2be-7c04a1eb0d96/ba43550a9ea71ca94ff7a11c0e2cfb7f/res/1071fc1d-1962-4c1c-a43f-6b822f1b1d31/skitch.png
+
+=== more examples to be added ===
