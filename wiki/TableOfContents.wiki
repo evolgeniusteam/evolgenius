@@ -23,6 +23,7 @@
       * [EvolViewDatasetBars Bars]
       * [EvolViewDatasetBranchColor Branch color]
       * [EvolViewDatasetLeafColor Leaf color]
+      * [EvolViewDatasetLeafBKColor Leaf background color]
       * [EvolViewDatasetColorStrip Color strip and color shapes]
       * [EvolViewProteinDomain Protein domains]
     * [EvolViewTreeFormats Supported phylogenetic tree formats]
