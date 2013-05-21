@@ -9,11 +9,11 @@ _please send email to us (evolgenius.team@gmail.com) if you have any questions; 
 
 Pies will be displayed on internal and leaf branches. Here is an example:
 
-https://www.evernote.com/shard/s130/sh/4ac9180b-aa03-4906-a6c6-14b0dd69007c/238350bd06ccd18ce5733242cfc15709/res/03c0eb28-84ae-4af2-a4ff-95be2b267195/skitch.png
+https://lh4.googleusercontent.com/-9gYQorfNJco/UZu22IdksQI/AAAAAAAAAA4/XBeuhIkPEIw/w816-h413-no/skitch.png
 
 User can upload multiple pie-chart datasets to a tree, but only one can be displayed at a time. However user can control which one should be displayed using the control panel:
 
-https://www.evernote.com/shard/s130/sh/a8c6d75b-0214-4a98-bec7-9d1d84314a7d/bccf843f2a3557eda9ea99ddc1d5cd3d/res/57dc61c8-5724-48fb-ab5c-5f4b0f5acd4e/skitch.png
+https://lh6.googleusercontent.com/-w-MAXv4QtqE/UZu4rmH82yI/AAAAAAAAAB8/OFSbjW6nslI/w248-h102-no/skitch.png
 
 Supported Key-Value pairs for pie charts:
 || *Key* (case insensitive) || *Value* || *Description* ||
@@ -72,7 +72,7 @@ Saccharomyces_cerevisiae,Neurospora_crassa	0,169
   # and the same number of "groups" should also provided by "!groups"
 
 
-https://www.evernote.com/shard/s130/sh/29da6fca-dfa6-4864-83bb-99d1011bcb4c/44cffe96fd20043d77d8b9102444c420/res/b1c470fc-02a8-4dad-a686-ce5ee7790f8c/skitch.png
+https://lh4.googleusercontent.com/-R-u24Mha6MI/UZu5CUHiHNI/AAAAAAAAACg/GWGO3uk7RZc/w579-h405-no/pie1.png
 
 3. dataset 2: overlap with other duplicates
 <pre>
@@ -94,6 +94,6 @@ Saccharomyces_cerevisiae,Yarrowia_lipolytica	0,0,11,16
 Saccharomyces_cerevisiae,Neurospora_crassa	0,0,28,143
 </pre>
 
-https://www.evernote.com/shard/s130/sh/c3955ca7-0de4-47c9-b2be-7c04a1eb0d96/ba43550a9ea71ca94ff7a11c0e2cfb7f/res/1071fc1d-1962-4c1c-a43f-6b822f1b1d31/skitch.png
+https://lh6.googleusercontent.com/-7xv0iAH4ZUQ/UZu5OpuSjjI/AAAAAAAAADE/Dwz_Q-Cf1Bs/w585-h397-no/pie2.png
 
 === more examples to be added ===
