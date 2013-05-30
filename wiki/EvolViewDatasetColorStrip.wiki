@@ -11,11 +11,12 @@ _please send email to us (evolgenius.team@gmail.com) if you have any questions; 
 Similar to bar charts, color strips and color shapes are added next to the leaf labels. Therefore multiple datasets can be uploaded and displayed.
 
 Here is an example:
+
 https://lh3.googleusercontent.com/-0VYckM0G80A/Uac2oqc5iKI/AAAAAAAAAKw/3oYbwo4gPjc/w293-h184-no/ev.strips.001-2.png
 
 == supported modifiers ==
 
-Supported Key-Value pairs for pie charts:
+Supported Key-Value pairs for color charts:
 || *Key* (case insensitive) || *Value* || *Description* ||
 || _*universal modifiers*_  || || ||
 || `!`Groups or `!`LegendText ||comma separated text|| Legend texts; for example 'group_a,group_b,group_c'||
@@ -32,31 +33,17 @@ Supported Key-Value pairs for pie charts:
 ||  `!`type or  `!`types or  `!`shape or  `!`shapes || any one or combination of rect,star,circle,strip || see examples bellow ||
 
 
+== notes on preparing your datasets!! ==
+  # *please always use TAB to separate the modifiers and their values.*
+  # *modifier !type controls the number of shapes to be shown next to leaf labels*
+  # *the "data" part of this dataset can only contain two columns of tab-delimited texts; the third column, if presents, will be ignored*
+    * the first column contains the name of a single leaf node
+    * the second column contains comma (,) delimited colors; if the number of colors is less than the number of shapes, the colors will be recycled
+  # *please also always use TAB to separate the columns in the data section.*
 
 
-== data and examples ==
-Data are usually tab-delimited three-column texts, with the third column optional.
 
-=== first column: the location ===
-the first column dictates where the data to be plotted. It usually contains the name of a leaf node, or two leaf names separated by a ','.
-
-  * one single leaf name dictates that the data will be plotted on / next to / under the leaf or the branch connecting directly to the leaf node
-  * two leaf names are often used in combination with an 'ad' at the third column; see the section 'third column' for more details.
-
-For example:
-  * chicken
-  * mouse,human
-
-=== second column: color to be applied ===
-
-=== third column: optional commands to change the default behavior of current line ===
-By default, the color will only apply to the specified leaf label; for example:
-
-the tree:
-{{{
-(chicken,((mouse,rat),(chimp,human)));
-}}}
-
+== examples ==
 <table border="1">
 <tr>
 <th>Dataset</th>
@@ -65,63 +52,17 @@ the tree:
 <tr>
 <td>
     <pre>
- ## leaf color
-human	red
+ ##color strips
+!type		strip,rect,circle,star
+!showlegends	0
+ 
+## let the data begin
+mouse	pink,red,green,blue
+chicken	yellow,purple,darkred,lightgreen
+rat	lightblue
+chimp	grey,darkgreen,grey,pink
+human	orange,red,yellow,lightblue
 </pre>
-</td>
-<td>
-https://img.skitch.com/20111209-tbt68i3yj77ap3b1nkgxaiy655.png
-</td></tr>
-</table>
-
-By adding a third column, the default behavior can be changed. Here is a list of choices of this column:
-|| *Option* (case insensitive) || *Description* ||
-|| ad || apply color to the leaf labels of all descendants ||
-|| prefix || apply color to all leaf labels that start with the string specified by the first column ||
-|| suffix || apply color to all leaf labels that end with the string specified by the first column ||
-|| anywhere || apply color to leaf labels that contain the string specified by the first column ||
-
-For example:
-
-<table border="1">
-<tr>
-<th>Dataset</th>
-<th>Plot</th>
-</tr>
-<tr><td>
-    <pre>
- ## leaf color
-human,mouse	pink	ad
-</pre>
-</td>
-<td>
-https://img.skitch.com/20111209-tkpbhtimewydsn1dydduk5gg5a.png
-</td></tr>
-<tr><td>
-    <pre>
- ## leaf color
-ch	yellow	prefix
-</pre>
-</td>
-<td>
-https://img.skitch.com/20111209-qwcuf838f5imc1ceyk77wqf7in.png
-</td></tr>
-<tr><td>
-    <pre>
- ## leaf color
-n	blue	suffix
-</pre>
-</td>
-<td>
-https://img.skitch.com/20111209-rergxsq22t59bg83ewnbqmc12m.png
-</td></tr>
-<tr><td>
-    <pre>
- ## leaf color
-m	darkblue	anywhere
-</pre>
-</td>
-<td>
-https://img.skitch.com/20111209-rxgxyi3un4krgqi7c1km5r4usd.png
-</td></tr>
-</table>
+</td><td>
+https://img.skitch.com/20111209-8783r2t362pb83mfdnr6tdi72.png
+</td></tr></table>
