@@ -1,6 +1,8 @@
 #summary pie charts
 
-== pie charts ==
+<wiki:toc max_depth="5" /> 
+
+== pie charts overview ==
 
 *_NOTE_*
 
@@ -15,26 +17,32 @@ User can upload multiple pie-chart datasets to a tree, but only one can be displ
 
 https://lh6.googleusercontent.com/-w-MAXv4QtqE/UZu4rmH82yI/AAAAAAAAAB8/OFSbjW6nslI/w248-h102-no/skitch.png
 
+
+== supported modifiers ==
+
 Supported Key-Value pairs for pie charts:
 || *Key* (case insensitive) || *Value* || *Description* ||
+|| _*universal modifiers*_  || || ||
 || `!`Groups or `!`LegendText ||comma separated text|| Legend texts; for example 'group_a,group_b,group_c'||
 || `!`LegendStyle or `!`Style  || rect or circle or star || shapes to be plotted before the legend texts; default = rect ||
 || `!`LegendColors or `!`Colors ||comma separated color codes or names|| colors to be applied to the shapes specified by !LegendStyle; for example 'red,green,yellow' ; note the number of colors should match the number of legend fields||
 || `!`Title or `!`Legend || text || title of the legend; default = name of the dataset || 
 || `!`ShowLegends || 0 or 1 || 0 : hide legends; 1 : show legends ||
 || `!`opacity || float number between 0 to 1 || opacity of the dataset ||
+|| _*pie charts specific*_  || || ||
 || `!`minradius || any float number > 0 || minimal pixel radius of the pies ||
 || `!`maxradius || any float number > 0 || maximal pixel radius of the pies ||
 || `!`area || none || use user inputs as the areas of the pie charts ||
 || `!`radius || none || use user inputs as the radiuses of the pie charts ||
 
+== notes on preparing your dataset!! ==
 *_NOTE:_* 
   # *please always use TAB to separate the modifiers and their values.*
   # *some modifiers should not be used in combination, e.g. !area and !radius are mutually exclusive. However if both are used (accidentally), only the last one will be used.*
   # *if a modifier is used (accidentally) multiple tiles, only the last one will be used.*
   # *the "data" part of this dataset can only contain two columns of tab-delimited texts; the third column, if presents, will be ignored*
 
-== Examples ==
+== some examples ==
 
 The following we will provide you some examples. You can copy & paste the tree and datasets to EvolView to reproduce the results.
 
@@ -96,4 +104,4 @@ Saccharomyces_cerevisiae,Neurospora_crassa	0,0,28,143
 
 https://lh6.googleusercontent.com/-7xv0iAH4ZUQ/UZu5OpuSjjI/AAAAAAAAADE/Dwz_Q-Cf1Bs/w585-h397-no/pie2.png
 
-=== more examples to be added ===
+== more examples to be added ==
