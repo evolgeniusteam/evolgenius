@@ -1,0 +1,104 @@
+#summary branch colors
+
+<wiki:toc max_depth="5" /> 
+
+== branch colors overview ==
+
+*_NOTE_*
+
+_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
+
+Branch colors will be applied to tree branches. Similar to pie charts, multiple datasets for branch colors can be uploaded to a tree, but only one can be shown at a time.
+
+Here is an example:
+
+
+== supported modifiers ==
+
+Supported Key-Value pairs for pie charts:
+|| *Key* (case insensitive) || *Value* || *Description* ||
+|| _*universal modifiers*_  || || ||
+|| `!`Groups or `!`LegendText ||comma separated text|| Legend texts; for example 'group_a,group_b,group_c'||
+|| `!`LegendStyle or `!`Style  || rect or circle or star || shapes to be plotted before the legend texts; default = rect ||
+|| `!`LegendColors or `!`Colors ||comma separated color codes or names|| colors to be applied to the shapes specified by !LegendStyle; for example 'red,green,yellow' ; note the number of colors should match the number of legend fields||
+|| `!`Title or `!`Legend || text || title of the legend; default = name of the dataset || 
+|| `!`ShowLegends || 0 or 1 || 0 : hide legends; 1 : show legends ||
+|| `!`opacity || float number between 0 to 1 || opacity of the dataset ||
+
+== data and examples ==
+Data are usually tab-delimited three-column texts, with the third column optional.
+
+=== first column: the location ===
+the first column dictates where the data to be plotted. It usually contains the name of a leaf node, or two leaf names separated by a ','.
+
+  * one single leaf name dictates that the data will be plotted on / next to / under the leaf or the branch connecting directly to the leaf node
+  * two leaf names, on the hand, dictates that the data will be displayed on the branch representing the last common ancestor of the two leaf nodes
+
+For example:
+  * chicken
+  * mouse,human
+
+=== second column: color to be applied ===
+
+=== third column: optional commands to change the default behavior of current line ===
+By default, the color will only apply to the specified branch; for example:
+<table border="1">
+<tr>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr>
+<td>
+    <pre>
+ ## branch color/ styles
+human	red
+</pre>
+</td>
+<td>
+https://img.skitch.com/20111209-dtewi11mqwdc1e7ntw265bd77c.png
+</td>
+</tr>
+</table>
+
+
+By adding a third column, the default behavior can be changed. Here is a list of choices of this column:
+|| *Option* (case insensitive) || *Description* ||
+|| ad || apply color to all descendants ||
+|| prefix || apply color to all branches connecting leaf nodes whose name starts with the string specified by the first column ||
+|| suffix || apply color to all branches connecting leaf nodes whose name ends with the string specified by the first column ||
+|| anywhere || apply color to all branches connecting leaf nodes whose name contains the string specified by the first column ||
+
+See examples bellow:
+<table border="1">
+<tr>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr>
+<td>
+    <pre>
+ ## branch color
+human,mouse	red	ad
+</pre>
+</td>
+<td>
+https://img.skitch.com/20111209-mnrcqfpkjx3371jwgjsr5krr3d.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## branch color
+ch	red	prefix
+</pre>
+</td>
+<td>
+https://img.skitch.com/20111209-pa62nursj8hnieeumcpa3b7ui6.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## branch color
+n	red	suffix
+</pre>
+</td>
+<td>
+https://img.skitch.com/20111209-pabkud25y3siysdk7y5wx58r1.png
+</td></tr></table>
