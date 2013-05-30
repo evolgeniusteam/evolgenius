@@ -1,0 +1,117 @@
+#summary color strips and shapes
+
+<wiki:toc max_depth="5" /> 
+
+*_NOTE_*
+
+_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
+
+Similar to bar charts, color strips and color shapes are added next to the leaf labels. Therefore multiple datasets can be uploaded and displayed.
+
+Here is an example:
+
+
+== supported modifiers ==
+
+Supported Key-Value pairs for pie charts:
+|| *Key* (case insensitive) || *Value* || *Description* ||
+|| _*universal modifiers*_  || || ||
+|| `!`Groups or `!`LegendText ||comma separated text|| Legend texts; for example 'group_a,group_b,group_c'||
+|| `!`LegendStyle or `!`Style  || rect or circle or star || shapes to be plotted before the legend texts; default = rect ||
+|| `!`LegendColors or `!`Colors ||comma separated color codes or names|| colors to be applied to the shapes specified by !LegendStyle; for example 'red,green,yellow' ; note the number of colors should match the number of legend fields||
+|| `!`Title or `!`Legend || text || title of the legend; default = name of the dataset || 
+|| `!`ShowLegends || 0 or 1 || 0 : hide legends; 1 : show legends ||
+|| `!`opacity || float number between 0 to 1 || opacity of the dataset ||
+
+
+== data and examples ==
+Data are usually tab-delimited three-column texts, with the third column optional.
+
+=== first column: the location ===
+the first column dictates where the data to be plotted. It usually contains the name of a leaf node, or two leaf names separated by a ','.
+
+  * one single leaf name dictates that the data will be plotted on / next to / under the leaf or the branch connecting directly to the leaf node
+  * two leaf names are often used in combination with an 'ad' at the third column; see the section 'third column' for more details.
+
+For example:
+  * chicken
+  * mouse,human
+
+=== second column: color to be applied ===
+
+=== third column: optional commands to change the default behavior of current line ===
+By default, the color will only apply to the specified leaf label; for example:
+
+the tree:
+{{{
+(chicken,((mouse,rat),(chimp,human)));
+}}}
+
+<table border="1">
+<tr>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr>
+<td>
+    <pre>
+ ## leaf color
+human	red
+</pre>
+</td>
+<td>
+https://img.skitch.com/20111209-tbt68i3yj77ap3b1nkgxaiy655.png
+</td></tr>
+</table>
+
+By adding a third column, the default behavior can be changed. Here is a list of choices of this column:
+|| *Option* (case insensitive) || *Description* ||
+|| ad || apply color to the leaf labels of all descendants ||
+|| prefix || apply color to all leaf labels that start with the string specified by the first column ||
+|| suffix || apply color to all leaf labels that end with the string specified by the first column ||
+|| anywhere || apply color to leaf labels that contain the string specified by the first column ||
+
+For example:
+
+<table border="1">
+<tr>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr><td>
+    <pre>
+ ## leaf color
+human,mouse	pink	ad
+</pre>
+</td>
+<td>
+https://img.skitch.com/20111209-tkpbhtimewydsn1dydduk5gg5a.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## leaf color
+ch	yellow	prefix
+</pre>
+</td>
+<td>
+https://img.skitch.com/20111209-qwcuf838f5imc1ceyk77wqf7in.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## leaf color
+n	blue	suffix
+</pre>
+</td>
+<td>
+https://img.skitch.com/20111209-rergxsq22t59bg83ewnbqmc12m.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## leaf color
+m	darkblue	anywhere
+</pre>
+</td>
+<td>
+https://img.skitch.com/20111209-rxgxyi3un4krgqi7c1km5r4usd.png
+</td></tr>
+</table>
