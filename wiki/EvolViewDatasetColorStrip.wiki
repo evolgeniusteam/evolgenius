@@ -82,6 +82,6 @@ Here is how widths and heights of individual shapes are calculated:
   * each shape will take 80% of available height, except strip, while will take 100% 
   * all shapes will be centered both vertically and horizontally
   * for all shapes except strips, when the widths and heights are of different sizes, always the smaller ones will be chosen as their widths and heights
-  * by default, strips will take all of the available heights; however, user can change that using two modifiers !stripHeightPX and !stripHeightPCT. When both modifiers are used in the same dataset (by mistake), only !stripHeightPX will be used.
+  * by default, strips will take all of the available heights; however, user can change that using two modifiers !stripHeightPX and !stripHeightPCT. When both modifiers are used in the same dataset (by mistake), only !stripHeightPCT will be used.
 
 Here are some examples:
