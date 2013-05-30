@@ -11,7 +11,7 @@ _please send email to us (evolgenius.team@gmail.com) if you have any questions; 
 Branch colors will be applied to tree branches. Similar to pie charts, multiple datasets for branch colors can be uploaded to a tree, but only one can be shown at a time.
 
 Here is an example:
-
+https://lh5.googleusercontent.com/--LA0DMV_SSU/UaccaqHczLI/AAAAAAAAAJw/dJLpWR9lH3o/w829-h711-no/ev.branch.001.png
 
 == supported modifiers ==
 
