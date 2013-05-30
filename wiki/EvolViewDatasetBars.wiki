@@ -37,6 +37,12 @@ The following 'modifiers' (Key-Value pairs) are supported for bar charts:
 || `!`Fanplot or `!` Fan || none || works only with circular tree; see examples bellow ||
 
 === Some examples ===
+
+the tree :
+{{{
+(A:0.1,(B:0.2,(C:0.3,D:0.4)100:0.05)100:0.1)90:0.43;
+}}}
+
 <table border="1">
 <tr>
 <th>Dataset</th>
