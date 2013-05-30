@@ -14,6 +14,12 @@ Here is an example:
 
 https://lh3.googleusercontent.com/-0VYckM0G80A/Uac2oqc5iKI/AAAAAAAAAKw/3oYbwo4gPjc/w293-h184-no/ev.strips.001-2.png
 
+the differences between 'rect' and 'strip' are:
+  * strip by default will take all available space of a leaf label, while rect will only take 60%
+  * strip looks like the following in circular mode, while rect remains the same.
+
+https://lh4.googleusercontent.com/-sO80RpGbba0/UadRY1RpegI/AAAAAAAAALc/RJ5iNmhCLr0/w360-h297-no/ev.strips.002.png
+
 == supported modifiers ==
 
 Supported Key-Value pairs for color charts:
@@ -27,10 +33,12 @@ Supported Key-Value pairs for color charts:
 || `!`opacity || float number between 0 to 1 || opacity of the dataset ||
 || _*none-universal modifiers*_  || || ||
 || `!`PlotWidth  || integer > 0 || pixel width of the dataset on canvas ||
-|| `!`itemHeightPX or `!`barHeightPX || integer > 0 || pixel height of each shape; see examples bellow ||
-|| `!`itemHeightPCT or `!`barHeightPCT || float number between 1 to 100 || percentage of available height taken by each shape; see examples bellow ||
+|| `!`itemHeightPX or `!`barHeightPX || integer > 0 || pixel height of each shape except 'strips'; see examples bellow ||
+|| `!`itemHeightPCT or `!`barHeightPCT || float number between 1 to 100 || percentage of available height taken by each shape except 'strips'; see examples bellow ||
 || _*unique modifiers*_  || || modifiers for this annotation dataset only ||
 ||  `!`type or  `!`types or  `!`shape or  `!`shapes || any one or combination of rect,star,circle,strip || see examples bellow ||
+|| `!`stripHeightPX || integer > 0 || pixel height for each strip; see examples bellow ||
+|| `!`stripHeightPCT || float number between 1 to 100 || percentage of available height taken each strip, see examples bellow || 
 
 
 == notes on preparing your datasets!! ==
@@ -40,7 +48,6 @@ Supported Key-Value pairs for color charts:
     * the first column contains the name of a single leaf node
     * the second column contains comma (,) delimited colors; if the number of colors is less than the number of shapes, the colors will be recycled
   # *please also always use TAB to separate the columns in the data section.*
-
 
 
 == examples ==
@@ -66,3 +73,5 @@ human	orange,red,yellow,lightblue
 </td><td>
 https://img.skitch.com/20111209-8783r2t362pb83mfdnr6tdi72.png
 </td></tr></table>
+
+== plot width, shape width and height ==
