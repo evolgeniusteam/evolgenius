@@ -15,7 +15,7 @@ Here is an example:
 https://lh3.googleusercontent.com/-0VYckM0G80A/Uac2oqc5iKI/AAAAAAAAAKw/3oYbwo4gPjc/w293-h184-no/ev.strips.001-2.png
 
 the differences between 'rect' and 'strip' are:
-  * strip by default will take all available space of a leaf label, while rect will only take 60%
+  * strip by default will take all available space of a leaf label, while rect will only take 80%
   * strip looks like the following in circular mode, while rect remains the same.
 
 https://lh4.googleusercontent.com/-sO80RpGbba0/UadRY1RpegI/AAAAAAAAALc/RJ5iNmhCLr0/w360-h297-no/ev.strips.002.png
@@ -74,4 +74,14 @@ human	orange,red,yellow,lightblue
 https://img.skitch.com/20111209-8783r2t362pb83mfdnr6tdi72.png
 </td></tr></table>
 
-== plot width, shape width and height ==
+== plot width, widths and heights of individual shapes ==
+
+Here is how widths and heights of individual shapes are calculated:
+  * if a dataset contains multiple shapes, then the plot width will be divided equally among each shape
+  * each shape will take 80% of available width
+  * each shape will take 80% of available height, except strip, while will take 100% 
+  * all shapes will be centered both vertically and horizontally
+  * for all shapes except strips, when the widths and heights are of different sizes, always the smaller ones will be chosen as their widths and heights
+  * by default, strips will take all of the available heights; however, user can change that using two modifiers !stripHeightPX and !stripHeightPCT. When both modifiers are used in the same dataset (by mistake), only !stripHeightPX will be used.
+
+Here are some examples:
