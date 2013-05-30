@@ -2,12 +2,13 @@
 
 <wiki:toc max_depth="5" /> 
 
+== leaf colors overview ==
+
 *_NOTE_*
 
 _please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
 
 Leaf colors will change the colors of leaf labels. Similar to branch colors, multiple datasets can be uploaded to a tree, but only one can be shown at a time.
-
 
 == supported modifiers ==
 
