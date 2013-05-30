@@ -1,0 +1,121 @@
+#summary help page for barplot
+
+== bar charts ==
+
+
+*_NOTE_*
+
+_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
+
+
+Bar charts will be displayed next to leaf labels. For example:
+
+https://lh5.googleusercontent.com/-QTqELAbTGlI/Uabpm3TmeqI/AAAAAAAAAEU/qXAD8aHVR2o/w465-h236-no/ev.barcharts.001.png
+
+Multiple bar-chart datasets can be uploaded to a tree and shown next to each other; uploaded datasets can be managed using the control panel:
+
+https://lh5.googleusercontent.com/-YRRm4Qv9LNY/UabuX7N45yI/AAAAAAAAAFA/cQ-ER4xbUws/w567-h284-no/ev.barcharts.002.png
+
+The following 'modifiers' (Key-Value pairs) are supported for bar charts:
+
+|| *Key* (case insensitive) || *Value* || *Description* ||
+|| _*universal modifiers*_  || || ||
+|| `!`Groups or `!`LegendText ||comma separated text|| Legend texts; for example 'group_a,group_b,group_c'||
+|| `!`LegendStyle or `!`Style  || rect or circle or star || shapes to be plotted before the legend texts; default = rect ||
+|| `!`LegendColors or `!`Colors ||comma separated color codes or names|| colors to be applied to the shapes specified by !LegendStyle; for example 'red,green,yellow' ; note the number of colors should match the number of legend fields||
+|| `!`Title or `!`Legend || text || title of the legend; default = name of the dataset || 
+|| `!`ShowLegends || 0 or 1 || 0 : hide legends; 1 : show legends ||
+|| `!`opacity || float number between 0 to 1 || opacity of the dataset ||
+|| _*none pie chart modifiers*_  || || modifiers that apply to all charts except pies ||
+|| `!`PlotWidth  || integer > 0 || pixel width of the dataset on canvas ||
+|| `!`itemHeightPX or `!`barHeightPX || integer > 0 || pixel height of each bar; see examples bellow ||
+|| `!`itemHeightPCT or `!`barHeightPCT || float number between 1 to 100 || percentage of available height taken by each bar; see examples bellow ||
+|| `!`grid || none || show a background grid ||
+|| `!`gridlabel or `!`axis || none || show the values corresponding to the grid lines ||
+|| _*bar charts specific*_  || || ||
+|| `!`align or `!`alignIndividualColumn || none || align individual columns if the bars are stacked ||
+|| `!`Fanplot or `!` Fan || none || works only with circular tree; see examples bellow ||
+
+=== Some examples ===
+<table border="1">
+<tr>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr>
+<td>
+    <pre>
+ ##barplots
+!groups	2009,2010,2011
+!colors	lightblue,yellow,green
+!showLegends	1
+!plotwidth	100
+!style	rect
+!title	an example of bar plots
+A	2,3,1
+B	10,20,1
+C	8,9,2
+D	20,3,4
+</pre>
+</td>
+<td>
+http://img.skitch.com/20111122-j3cddm2sydmq7ebnia8e46ix4j.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## turn grid on
+!grid
+</pre>
+</td>
+<td>http://img.skitch.com/20111122-fnu17e36jqkhb9ued9u9fcukwq.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## turn grid on
+## align individual columns
+!grid
+!align
+</pre>
+</td><td>
+http://img.skitch.com/20111122-e6icdairtb4xn9wgrii1pux2gb.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## fan plot of the bars in circular mode
+!Fanplot
+</pre>
+</td><td>
+http://img.skitch.com/20111122-p5r9rid311qn72kn8cy6k6h5yt.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## grid and grid label
+!groups	group 1,group 2,group 3
+!colors	#028482,#7ABA7A,#B76EB8
+!grid
+!gridlabel
+A	8,13,5
+B	10,20,7
+C	8,9,7
+D	20,5,20
+</pre>
+</td><td>
+https://lh3.googleusercontent.com/-BQuJsUwk0hw/Uab1vRYZPII/AAAAAAAAAGQ/5EFFsRaGTNA/w394-h339-no/ev.barcharts.004.png
+</td></tr>
+<tr><td>
+    <pre>
+ ## fan plot of the bars in circular mode
+## and align individual columns
+!groups	group 1,group 2,group 3
+!colors	#028482,#7ABA7A,#B76EB8
+!fanplot
+!align
+A	8,13,5
+B	10,20,7
+C	8,9,7
+D	20,5,20
+</pre>
+</td><td>
+https://lh3.googleusercontent.com/-XcbQV79KtWw/Uab0LHLJCgI/AAAAAAAAAFk/tG07W3EVTOc/w394-h336-no/ev.barcharts.003.png
+</td></tr>
+</table>
