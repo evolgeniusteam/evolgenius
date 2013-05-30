@@ -6,10 +6,12 @@
 
 _please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
 
+== leaf backgroud color overview ==
+
 leafbackground colors will change the colors of leaf background. Similar to branch colors, multiple datasets can be uploaded to a tree, but only one can be shown at a time.
 
 Here is an example:
-
+https://lh3.googleusercontent.com/-u4LeNzBt5Vc/Uac1TQMO4zI/AAAAAAAAAKE/oLUKiu4D36Q/w782-h659-no/ev.bkcolor.001.png
 
 == supported modifiers ==
 
