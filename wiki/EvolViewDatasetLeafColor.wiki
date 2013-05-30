@@ -8,8 +8,6 @@ _please send email to us (evolgenius.team@gmail.com) if you have any questions; 
 
 Leaf colors will change the colors of leaf labels. Similar to branch colors, multiple datasets can be uploaded to a tree, but only one can be shown at a time.
 
-Here is an example:
-
 
 == supported modifiers ==
 
