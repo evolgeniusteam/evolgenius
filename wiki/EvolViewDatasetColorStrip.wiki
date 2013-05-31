@@ -12,7 +12,7 @@ Similar to bar charts, color strips and color shapes are added next to the leaf 
 
 Here is an example:
 
-https://lh3.googleusercontent.com/-0VYckM0G80A/Uac2oqc5iKI/AAAAAAAAAKw/3oYbwo4gPjc/w293-h184-no/ev.strips.001-2.png
+https://lh3.googleusercontent.com/-mL1c8cXYBkk/UahT0jcu1xI/AAAAAAAAAMA/jlQrCJOuCyE/w506-h306-o/ev.strips.010.png
 
 the differences between 'rect' and 'strip' are:
   * strip by default will take all available space of a leaf label, while rect will only take 80%
@@ -36,9 +36,10 @@ Supported Key-Value pairs for color charts:
 || `!`itemHeightPX or `!`barHeightPX || integer > 0 || pixel height of each shape except 'strips'; see examples bellow ||
 || `!`itemHeightPCT or `!`barHeightPCT || float number between 1 to 100 || percentage of available height taken by each shape except 'strips'; see examples bellow ||
 || _*unique modifiers*_  || || modifiers for this annotation dataset only ||
-||  `!`type or  `!`types or  `!`shape or  `!`shapes || any one or combination of rect,star,circle,strip || see examples bellow ||
+||  `!`type or  `!`types or  `!`shape or  `!`shapes || any one or combination of rect,star,circle,strip,check || see examples bellow ||
 || `!`stripHeightPX || integer > 0 || pixel height for each strip; see examples bellow ||
 || `!`stripHeightPCT || float number between 1 to 100 || percentage of available height taken each strip, see examples bellow || 
+|| `!`checkLineWidth or `!`checklwd || integer > 0 || line width of the 'check' symbol, see examples bellow || 
 
 
 == notes on preparing your datasets!! ==
@@ -80,8 +81,108 @@ Here is how widths and heights of individual shapes are calculated:
   * if a dataset contains multiple shapes, then the plot width will be divided equally among each shape
   * each shape will take 80% of available width
   * each shape will take 80% of available height, except strip, while will take 100% 
-  * all shapes will be centered both vertically and horizontally
+  * all shapes will be centered at the available space both vertically and horizontally
   * for all shapes except strips, when the widths and heights are of different sizes, always the smaller ones will be chosen as their widths and heights
   * by default, strips will take all of the available heights; however, user can change that using two modifiers !stripHeightPX and !stripHeightPCT. When both modifiers are used in the same dataset (by mistake), only !stripHeightPCT will be used.
 
 Here are some examples:
+<table border="1">
+<tr>
+<th>Modifiers tested</th>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr>
+<td></td>
+<td>
+    <pre>
+ ##color strips
+!type	strip,check,rect,star,circle
+A	red,green,blue
+B	purple,darkred,lightgreen
+C	lightblue
+D	darkgreen,grey,pink
+</pre>
+</td>
+<td>https://lh3.googleusercontent.com/-FFC9cNzLZhM/UahZNXB3yGI/AAAAAAAAAM0/da6BbQlG9Us/w245-h176-no/Screen+Shot+2013-05-31+at+9.52.05+AM.png</td>
+</tr>
+
+<tr>
+<td>!plotWidth</td>
+<td>
+    <pre>
+ ##color strips
+!type	strip,check,rect,star,circle
+## plotwidth by default is 100; set to 200 in this example
+!plotWidth	200
+A	red,green,blue
+B	purple,darkred,lightgreen
+C	lightblue
+D	darkgreen,grey,pink
+</pre>
+</td>
+<td>https://lh6.googleusercontent.com/-193Ote_J2m0/UahZNaAA4JI/AAAAAAAAAM8/f4P31Hbl6R8/w326-h163-no/Screen+Shot+2013-05-31+at+9.54.08+AM.png</td>
+</tr>
+
+<tr>
+<td>!itemHeightPCT</td>
+<td>
+    <pre>
+ ##color strips
+!type	strip,check,rect,star,circle
+!plotWidth	200
+## -- shapes except strip will take 80% of available space; make it 100% in this example --
+!itemHeightPCT	100
+A	red,green,blue
+B	purple,darkred,lightgreen
+C	lightblue
+D	darkgreen,grey,pink
+</pre>
+</td>
+<td>https://lh3.googleusercontent.com/-TH1EUbKvovw/UahZOCklmAI/AAAAAAAAANM/feXpVs85dbA/w326-h164-no/Screen+Shot+2013-05-31+at+9.56.33+AM.png</td>
+</tr>
+
+<tr>
+<td>!stripHeightPCT</td>
+<td>
+    <pre>
+ ##color strips
+!type	strip,check,rect,star,circle
+## -- by default, strip will always take 100% available height; make it 80 in this example --
+!stripHeightPCT	80
+A	red,green,blue
+B	purple,darkred,lightgreen
+C	lightblue
+D	darkgreen,grey,pink
+</pre>
+</td>
+<td>https://lh5.googleusercontent.com/-xMu_SH3uOd4/UahZONknaPI/AAAAAAAAANQ/LIBguooSbpE/w242-h147-no/Screen+Shot+2013-05-31+at+9.58.27+AM.png</td>
+</tr>
+
+<tr>
+<td>!stripHeightPCT</td>
+<td>
+<pre>
+    ## the same as previous one, but the tree is plotted in circular mode 
+</pre>
+</td>
+<td>https://lh6.googleusercontent.com/-v_wTYv69MMY/UahZOarRHRI/AAAAAAAAANU/9ETANyh1RMk/w314-h349-no/Screen+Shot+2013-05-31+at+9.59.40+AM.png</td>
+</tr>
+
+<tr>
+<td>!checkLineWidth</td>
+<td>
+<pre>
+    ##color strips
+!type	strip,check,rect,star,circle
+## -- by default, check has a line width of 2 pixel; make it 5 --
+!checkLineWidth	5
+A	red,green,blue
+B	purple,darkred,lightgreen
+C	lightblue
+D	darkgreen,grey,pink
+</pre>
+</td>
+<td>https://lh3.googleusercontent.com/-GJhqEbcIo1o/UahZNSCmtbI/AAAAAAAAANA/pNe1H2pxRJ0/w232-h144-no/Screen+Shot+2013-05-31+at+10.01.32+AM.png</td>
+</tr>
+</table>
