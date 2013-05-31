@@ -2,11 +2,6 @@
 
 <wiki:toc max_depth="5" /> 
 
-
-* this page is in beta *
-
-https://img.skitch.com/20120515-4htxrem3ca5fjsby98ppf77yp.png
-
 The following topics will be covered in this section:
   # Automatic retrieval of domain annotations from PFAM
   # The contents of protein domain annotations
@@ -163,16 +158,21 @@ by default, a random color will be assigned to a protein domain, and the color -
 The following "modifiers" are available for domain visualizations; most of them can be used in combination.
 
 || *Key* (case insensitive) || *Value* || *Description* ||
+|| _*universal modifiers*_  || || ||
 || `!`Groups or `!`LegendText ||comma separated text|| Legend texts; for example 'group_a,group_b,group_c'||
 || `!`LegendColors or `!`Colors ||comma separated color codes or names|| colors to be applied to the shapes specified by !LegendStyle; for example 'red,green,yellow' ; note the number of colors should match the number of legend fields||
 || `!`Title or `!`Legend || text || title of the legend; default = name of the dataset || 
 || `!`ShowLegends || 0 or 1 || 0 : hide legends; 1 : show legends ||
 || `!`opacity || float number between 0 to 1 || opacity of the dataset ||
-|| `!`PlotWidth  || integer > 0 || pixel width of the dataset on canvas || 
-|| `!`PlotHeight  || integer > 0 || pixel height for each protein || 
-|| `!`shadow or `!`showShadow  || 0 or 1 || 1: show drop shadow under non-PFAM-B domains; *WARNING: if shadow is on, exporting to graphical formats other than SVG is NOT functional!!* || 
+|| _*none pie chart modifiers*_  || || modifiers that apply to all charts except pies ||
+|| `!`PlotWidth  || integer > 0 || pixel width of the dataset on canvas ||  
+|| `!`itemHeightPX or `!`barHeightPX or `!`PlotHeight (deprecated) or `!`Height (deprecated) || integer > 0 || pixel height of each bar; see examples bellow ||
+|| `!`itemHeightPCT or `!`barHeightPCT || float number between 1 to 100 || percentage of available height taken by each bar; see examples bellow ||
 || `!`grid || none || show a background grid ||
 || `!`gridlabel or `!`axis || none || show the values (protein length) corresponding to the grid lines ||
+|| _*unique modifiers*_  || || modifiers unique to this annotation ||
+|| `!`shadow or `!`showShadow  || 0 or 1 || 1: show drop shadow under non-PFAM-B domains; *WARNING: if shadow is on, exporting to graphical formats other than SVG is NOT functional!!* || 
+
 
 === Known issues ===
   * exporting to graphical formats other than SVG is not functional if 'shadow' option is on.
