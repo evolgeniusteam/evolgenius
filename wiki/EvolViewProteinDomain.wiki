@@ -166,8 +166,8 @@ The following "modifiers" are available for domain visualizations; most of them 
 || `!`opacity || float number between 0 to 1 || opacity of the dataset ||
 || _*none pie chart modifiers*_  || || modifiers that apply to all charts except pies ||
 || `!`PlotWidth  || integer > 0 || pixel width of the dataset on canvas ||  
-|| `!`itemHeightPX or `!`barHeightPX or `!`PlotHeight (deprecated) or `!`Height (deprecated) || integer > 0 || pixel height of each bar; see examples bellow ||
-|| `!`itemHeightPCT or `!`barHeightPCT || float number between 1 to 100 || percentage of available height taken by each bar; see examples bellow ||
+|| `!`itemHeightPX or `!`barHeightPX or `!`PlotHeight (deprecated) or `!`Height (deprecated) || integer > 0 || pixel height of each bar; similar to bar chart||
+|| `!`itemHeightPCT or `!`barHeightPCT || float number between 1 to 100 || percentage of available height taken by each bar; similar to bar chart ||
 || `!`grid || none || show a background grid ||
 || `!`gridlabel or `!`axis || none || show the values (protein length) corresponding to the grid lines ||
 || _*unique modifiers*_  || || modifiers unique to this annotation ||
