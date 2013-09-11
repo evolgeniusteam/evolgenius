@@ -2,6 +2,12 @@
 
 == What's new ==
 
+==== Sep 11, 2013 ====
+  * fix a bug with trees that have bootstrap values but no branch lengths : ((a,b)0.88,(c,d)0.99);
+  * new features:
+    # (beta) social login: now evolview supports OAuth 2.0, an open standard for authorization; users can login with existing accounts including Facebook, Gmail, Windows Live, Yahoo and many others. See here for more information about OAuth: http://en.wikipedia.org/wiki/OAuth
+    # now users can set the fonts of bootstrap or branch length values to italic and change their sizes; all changes will be saved on to the server
+
 ==== April 18, 2013 ====
   * fix a bug caused by tree like this '((a:1,b):3,(c:1,(d:1,e:3):1):2);'
   * new features:
