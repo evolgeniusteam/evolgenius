@@ -13,6 +13,7 @@
     * [EvolViewNotSoQuickStart A not so quick start]
       * [EvolViewCreateAnAccount Create an account]
       * [EvolViewUseWithoutAnAccount Use without an account]
+      * [EvolViewUseSocialLogin Login using OAuth / SNS accounts]
       * [EvolViewGetStartWith Get start]
         * [EvolViewTheBrowserPanel the browser panel]
         * [EvolViewToolbar the toolbar]
