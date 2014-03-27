@@ -1,0 +1,18 @@
+#summary pie charts
+
+== stroke colour and width ==
+
+*_NOTE_*
+
+_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
+
+One potential use of stroke colour is to make hollowed shapes like the following:
+
+https://lh4.googleusercontent.com/-9gYQorfNJco/UZu22IdksQI/AAAAAAAAAA4/XBeuhIkPEIw/w816-h413-no/skitch.png
+
+User can upload multiple pie-chart datasets to a tree, but only one can be displayed at a time. However user can control which one should be displayed using the control panel:
+
+https://lh6.googleusercontent.com/-w-MAXv4QtqE/UZu4rmH82yI/AAAAAAAAAB8/OFSbjW6nslI/w248-h102-no/skitch.png
+
+
+== supported modifiers ==
