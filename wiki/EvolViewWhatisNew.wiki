@@ -2,6 +2,10 @@
 
 == What's new ==
 
+==== March 27, 2014 ====
+  * add support for stroke colour and stroke width; see [EvolViewDatasetOverview datasets overview] for more details
+  * add a new dataset type : [EvolViewDatasetLeafDecoration Leaf label decorations]
+
 ==== Sep 11, 2013 ====
   * fix a bug with trees that have bootstrap values but no branch lengths : ((a,b)0.88,(c,d)0.99);
   * new features:
