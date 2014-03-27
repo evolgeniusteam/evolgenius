@@ -79,3 +79,4 @@ in this case, an 'ad' dictates that the branches of not only the common ancestor
   # [EvolViewDatasetLeafBKColor Leaf background color]
   # [EvolViewDatasetColorStrip Color strip and color shapes]
   # [EvolViewProteinDomain Protein domains]
+  # [EvolViewDatasetLeafDecoration Leaf label decorations]
