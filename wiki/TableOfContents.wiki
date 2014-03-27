@@ -19,7 +19,7 @@
         * [EvolViewToolbar the toolbar]
         * [EvolViewCanvas the Canvas]
     * [EvolViewDatasetOverview Datasets Overview]
-      * [EvolViewAboutStroke stroke colour and width]
+      * [EvolViewAboutStroke Stroke colour and width]
       * [EvolViewDatasetPieCharts Pie charts]
       * [EvolViewDatasetBars Bars]
       * [EvolViewDatasetBranchColor Branch color]
