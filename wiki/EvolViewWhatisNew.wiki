@@ -4,7 +4,7 @@
 
 ==== March 27, 2014 ====
   * new features:
-    # add support for stroke colour and stroke width; see [EvolViewDatasetOverview datasets overview] for more details
+    # add support for stroke colour and stroke width; see [EvolViewAboutStroke here] for more details
     # add a new dataset type : [EvolViewDatasetLeafDecoration Leaf label decorations]
 
 ==== Sep 11, 2013 ====
