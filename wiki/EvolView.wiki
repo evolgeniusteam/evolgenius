@@ -5,7 +5,8 @@ https://img.skitch.com/20111215-t3c4in9n21fcgxjccess4b499b.png
 
 [http://evolgenius.info/evolview.html EvolView] is an easy-to-use online tool for displaying, managing and customizing phylogenetic trees.
 
-_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
+*_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary. Do NOT comment on this page because I wouldn't be notified._*
+
 
 
 Please cite us if you find this tool useful: 
