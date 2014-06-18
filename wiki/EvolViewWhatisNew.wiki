@@ -5,6 +5,7 @@
 ==== coming soon (June 18, 2014) ====
   * share / public specific trees / projects
   * rotate subtree at specific nodes
+  * add images to nodes / branches (??)
 
 ==== June 18, 2014 ====
   * added support for navigation (beta)
