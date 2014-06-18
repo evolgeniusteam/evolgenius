@@ -2,6 +2,10 @@
 
 == What's new ==
 
+==== coming soon (June 18, 2014) ====
+  * share / public specific trees / projects
+  * rotate subtree at specific nodes
+
 ==== June 18, 2014 ====
   * added support for navigation (beta)
   * added a new modifier 'toroot' for branch colors; see [EvolViewDatasetBranchColor here] for examples
