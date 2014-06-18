@@ -5,6 +5,7 @@
 ==== June 18, 2014 ====
   * added support for navigation (beta)
   * added a new modifier 'toroot' for branch colors; see [EvolViewDatasetBranchColor here] for examples
+  
 ==== April 2, 2014 ====
   * now Firefox is officially back!! Enjoy!!
 
