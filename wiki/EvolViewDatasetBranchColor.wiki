@@ -67,6 +67,7 @@ By adding a third column, the default behavior can be changed. Here is a list of
 || prefix || apply color to all branches connecting leaf nodes whose name starts with the string specified by the first column ||
 || suffix || apply color to all branches connecting leaf nodes whose name ends with the string specified by the first column ||
 || anywhere || apply color to all branches connecting leaf nodes whose name contains the string specified by the first column ||
+|| toroot || apply color to all branches connecting the leaf node and parent nodes all the way to the root ||
 
 See examples bellow:
 <table border="1">
@@ -93,6 +94,7 @@ ch	red	prefix
 <td>
 https://img.skitch.com/20111209-pa62nursj8hnieeumcpa3b7ui6.png
 </td></tr>
+
 <tr><td>
     <pre>
  ## branch color
@@ -101,4 +103,18 @@ n	red	suffix
 </td>
 <td>
 https://img.skitch.com/20111209-pabkud25y3siysdk7y5wx58r1.png
-</td></tr></table>
+</td>
+</tr>
+
+<tr><td>
+    <pre>
+ ## branch color from specified leaf node to the root
+human	red	toroot
+</pre>
+</td>
+<td>
+https://lh3.googleusercontent.com/-qcACUqEbttE/U6GmW5oQLzI/AAAAAAAAAWI/oe71SEMuImo/w219-h191-no/Screen+Shot+2014-06-18+at+16.45.27.png
+</td>
+</tr>
+
+</table>
