@@ -7,6 +7,9 @@
   * rotate subtree at specific nodes
   * add images to nodes / branches (??)
 
+==== June 20, 2014 ====
+  * bug fix: fixed a bug that the tree panel doesn't show properly in Firefox
+
 ==== June 18, 2014 ====
   * added support for navigation (beta)
   * added a new modifier 'toroot' for branch colors; see [EvolViewDatasetBranchColor here] for examples
