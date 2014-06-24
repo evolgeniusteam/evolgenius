@@ -4,8 +4,10 @@
 
 ==== coming soon (June 18, 2014) ====
   * share / public specific trees / projects
-  * rotate subtree at specific nodes
   * add images to nodes / branches (??)
+
+==== June 23, 2014 ====
+  * added rotate subtree at internal nodes
 
 ==== June 20, 2014 ====
   * bug fix: fixed a bug that the tree panel doesn't show properly in Firefox
