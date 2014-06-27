@@ -2,9 +2,10 @@
 
 == What's new ==
 
-==== coming soon (June 18, 2014) ====
+==== coming soon (June 27, 2014) ====
   * share / public specific trees / projects
   * add images to nodes / branches (??)
+  * hide / show names of internal nodes
 
 ==== June 23, 2014 ====
   * added rotate subtree at internal nodes
