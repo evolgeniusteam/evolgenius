@@ -7,6 +7,9 @@
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
+==== July 4, 2014 ====
+  * bug fix
+
 ==== June 23, 2014 ====
   * added rotate subtree at internal nodes
 
