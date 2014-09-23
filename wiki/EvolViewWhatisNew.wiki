@@ -7,6 +7,9 @@
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
+==== Sep 23, 2014 ====
+  * added a new button "show /hide lines linking leaf labels and datasets" to the "Basic" tab; mouse over this icon to see larger image for more details.
+
 ==== July 4, 2014 ====
   * bug fix
 
