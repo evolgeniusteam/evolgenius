@@ -7,6 +7,14 @@
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
+==== Sep 28, 2014 ====
+  * added support for the display of data values in pie and bar charts; see trees 'yeast duplicates' and 'bars' in the "DEMOS" project
+  here are how the resulting plot look like:
+  for pie charts: https://lh4.googleusercontent.com/-ff51XU2Ttjw/VChwjWl5LAI/AAAAAAAAAXE/9nG_qbjTyec/w779-h443-no/EvolView__project_-_DEMOS__tree_-_yeast_duplications.png
+
+  for bar charts: https://lh5.googleusercontent.com/-tXXgeVyDubU/VChwbl0XoGI/AAAAAAAAAW8/9qPDa9Irqw4/w282-h125-no/EvolView__project_-_DEMOS__tree_-_bars.png
+
+
 ==== Sep 23, 2014 ====
   * added a new button "show /hide lines linking leaf labels and datasets" to the "Basic" tab; mouse over this icon to see larger image for more details.
 
