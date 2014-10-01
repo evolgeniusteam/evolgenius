@@ -7,6 +7,9 @@
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
+==== Oct 1, 2014 ====
+  * fixed a UI bug that the UI behaves differently between firefox and google chrome.
+
 ==== Sep 28, 2014 ====
   * added support for the display of data values in pie and bar charts; see trees 'yeast duplicates' and 'bars' in the "DEMOS" project
   here are how the resulting plot look like:
