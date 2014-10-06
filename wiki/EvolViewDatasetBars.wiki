@@ -47,7 +47,7 @@ The following 'modifiers' (Key-Value pairs) are supported for bar charts:
 || _*bar charts specific*_  || || ||
 || `!`align or `!`alignIndividualColumn || none || align individual columns if the bars are stacked ||
 || `!`Fanplot or `!` Fan || none || works only with circular tree; see examples bellow ||
-|| *new: show data values* ||  see section [EvolViewDatasetBars#show_data_value show data value] for more details  || ||
+|| _*new: show data values*_ ||  see section [EvolViewDatasetBars#show_data_value show data value] for more details  || ||
 
 == notes on preparing your datasets!! ==
   # *please always use TAB to separate the modifiers and their values.*
@@ -277,3 +277,128 @@ https://lh4.googleusercontent.com/-kXKuZKK52E0/UacSs0cEVzI/AAAAAAAAAIo/CHhzZlYpn
 </table>
 
 == show data value ==
+
+First, let's see an example:
+
+the tree :
+{{{
+(A:0.1,(B:0.2,(C:0.3,D:0.4)100:0.05)100:0.1)90:0.43;
+}}}
+
+the dataset (copy & paste) :
+
+<table border="1">
+<tr>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr>
+<td>
+    <pre>
+!groups	group 1,group 2,group 3
+!colors	#028482,#7ABA7A,#B76EB8
+!title	Example of barplots 4
+!plotwidth	200
+!itemHeightPCT	80
+!grid
+!axis
+!showLegends	0
+!showdataValue	show=1,fontsize=12,fontitalic=1,textalign=end
+A	8,13,5
+B	10,20,7
+C	8,9,7
+D	20,5,20
+</pre>
+</td>
+<td>
+https://lh4.googleusercontent.com/-x_mURCFVgSU/VDLw2BlhwUI/AAAAAAAAAYU/YVAjPASyE4A/w350-h160-no/EvolView__project_-_Documentation__tree_-_for_bars.png
+</td></tr>
+</table>
+
+A bit more details on supported features: https://lh6.googleusercontent.com/-uYKom7L9iGk/VDLyD3BfZpI/AAAAAAAAAY4/NiZOJnVTvi4/w452-h16-no/Edit_EvolViewDatasetBars_-_evolgenius_-_Genius_ways_to_perform_evolutionary_analyses_-_Google_Project_Hosting.png.
+
+The 'value' of the 'key' _*!showdataValue*_ can be any combination of the following, separated by a ",":
+
+||  || *alternative value* || *description* ||
+|| show = 1 || 0 || show or hide data values; optional; the data values will be shown if omitted ||
+|| fontsize=12 || any integer || set font size; optional; default = 10 ||
+|| fontcolor=red || any value color name || set text color; optional; default = black ||
+|| fontitalic=1 || 0 || set font italic; optional; default = 0 ||
+|| textalign=middle || start or end || set text align; optional; default = middle; see the following examples ||
+
+More examples using the same tree above:
+
+<table border="1">
+<tr>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr>
+<td>
+    <pre>
+!groups	group 1,group 2,group 3
+!colors	#028482,#7ABA7A,#B76EB8
+!title	Example of barplots 4
+!plotwidth	200
+!itemHeightPCT	80
+!grid
+!axis
+!showLegends	0
+!showdataValue	show=1,fontsize=12,fontitalic=1,textalign=end,fontcolor=white
+A	8,13,5
+B	10,20,7
+C	8,9,7
+D	20,5,20
+</pre>
+</td>
+<td>
+https://lh6.googleusercontent.com/-w_L-89qu89M/VDLtrlgClNI/AAAAAAAAAXs/2ITFC79Mxhs/w359-h175-no/EvolView__project_-_Documentation__tree_-_for_bars.png</td></tr>
+
+<tr> <td colspan=2> <b> ###  text align == end in circular mode ### </b> </td> </tr>
+
+<tr>
+<td>
+    <pre>
+!groups	group 1,group 2,group 3
+!colors	#028482,#7ABA7A,#B76EB8
+!title	Example of barplots 4
+!plotwidth	200
+!itemHeightPCT	80
+!grid
+!axis
+!showLegends	0
+!showdataValue	show=1,fontsize=12,fontitalic=1,textalign=end,fontcolor=white
+A	8,13,5
+B	10,20,7
+C	8,9,7
+D	20,5,20
+</pre>
+</td>
+<td>
+https://lh3.googleusercontent.com/-h5eFtH3ezNU/VDL2ZTVYUDI/AAAAAAAAAZs/1rqw2TIvGlQ/w546-h429-no/EvolView__project_-_Documentation__tree_-_for_bars.png</td></tr>
+
+<tr> <td colspan=2> <b> ###  text align == start in circular mode ### </b> </td> </tr>
+
+<tr>
+<td>
+    <pre>
+!groups	group 1,group 2,group 3
+!colors	#028482,#7ABA7A,#B76EB8
+!title	Example of barplots 4
+!plotwidth	200
+!itemHeightPCT	80
+!grid
+!axis
+!showLegends	0
+!showdataValue	show=1,fontsize=12,fontitalic=1,textalign=start,fontcolor=white
+A	8,13,5
+B	10,20,7
+C	8,9,7
+D	20,5,20
+</pre>
+</td>
+<td>
+https://lh5.googleusercontent.com/-eJj7i2tmmHk/VDL2vpSR0_I/AAAAAAAAAZ0/0KHtCgp_shg/w542-h429-no/EvolView__project_-_Documentation__tree_-_for_bars.png</td></tr>
+
+
+</table>
