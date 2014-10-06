@@ -19,6 +19,8 @@ https://lh4.googleusercontent.com/-ff51XU2Ttjw/VChwjWl5LAI/AAAAAAAAAXE/9nG_qbjTy
   for bar charts: 
 https://lh5.googleusercontent.com/-tXXgeVyDubU/VChwbl0XoGI/AAAAAAAAAW8/9qPDa9Irqw4/w282-h125-no/EvolView__project_-_DEMOS__tree_-_bars.png
 
+See [EvolViewDatasetBars#show_data_value here] for more details.
+
 
 ==== Sep 23, 2014 ====
   * added a new button "show /hide lines linking leaf labels and datasets" to the "Basic" tab; mouse over this icon to see larger image for more details.
