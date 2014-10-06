@@ -28,7 +28,6 @@
       * [EvolViewDatasetColorStrip Color strip and color shapes]
       * [EvolViewProteinDomain Protein domains]
       * [EvolViewDatasetLeafDecoration Leaf label decorations]
-      * [EvolViewDatasetLinesFromLeafLabelsToCharts Lines linking leaf labels to Charts]
       * [EvolViewDatasetGroupLabels Group Labels]
     * [EvolViewTreeFormats Supported phylogenetic tree formats]
     * [ContactUs Have questions? contact us by email]
