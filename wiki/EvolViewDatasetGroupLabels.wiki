@@ -1,0 +1,11 @@
+#summary help page for group label plot
+
+<wiki:toc max_depth="5" /> 
+
+== Group Labels overview ==
+
+*_NOTE_*
+
+_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
+
+Group Labels will be displayed next to leaf labels. For example:
