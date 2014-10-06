@@ -16,10 +16,8 @@
   for pie charts: 
 https://lh4.googleusercontent.com/-ff51XU2Ttjw/VChwjWl5LAI/AAAAAAAAAXE/9nG_qbjTyec/w779-h443-no/EvolView__project_-_DEMOS__tree_-_yeast_duplications.png
 
-  for bar charts: 
+  for bar charts (see [EvolViewDatasetBars#show_data_value here] for more details): 
 https://lh5.googleusercontent.com/-tXXgeVyDubU/VChwbl0XoGI/AAAAAAAAAW8/9qPDa9Irqw4/w282-h125-no/EvolView__project_-_DEMOS__tree_-_bars.png
-
-See [EvolViewDatasetBars#show_data_value here] for more details.
 
 
 ==== Sep 23, 2014 ====
