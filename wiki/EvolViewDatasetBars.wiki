@@ -2,6 +2,11 @@
 
 <wiki:toc max_depth="5" /> 
 
+== what's new ==
+
+  * added new functionality *show data value* in bar plots, see section: [*!showdatavalue*]
+
+
 == bar charts overview ==
 
 
