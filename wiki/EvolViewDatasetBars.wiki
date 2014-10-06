@@ -4,7 +4,9 @@
 
 == what's new ==
 
-  * added new functionality *show data value* in bar plots, see section: [*!showdatavalue*]
+  * added new functionality *show data value* in bar plots, see section: [EvolViewDatasetBars#show_data_value Show data value]. Here is an example plot:
+
+https://lh6.googleusercontent.com/-w_L-89qu89M/VDLtrlgClNI/AAAAAAAAAXs/2ITFC79Mxhs/w359-h175-no/EvolView__project_-_Documentation__tree_-_for_bars.png
 
 
 == bar charts overview ==
@@ -45,6 +47,7 @@ The following 'modifiers' (Key-Value pairs) are supported for bar charts:
 || _*bar charts specific*_  || || ||
 || `!`align or `!`alignIndividualColumn || none || align individual columns if the bars are stacked ||
 || `!`Fanplot or `!` Fan || none || works only with circular tree; see examples bellow ||
+|| *new: show data values* ||  see section [EvolViewDatasetBars#show_data_value show data value] for more details  || ||
 
 == notes on preparing your datasets!! ==
   # *please always use TAB to separate the modifiers and their values.*
@@ -272,3 +275,5 @@ https://lh4.googleusercontent.com/-kXKuZKK52E0/UacSs0cEVzI/AAAAAAAAAIo/CHhzZlYpn
 </tr>
 
 </table>
+
+== show data value ==
