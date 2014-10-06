@@ -13,7 +13,7 @@
 ==== Sep 28, 2014 ====
   * added support for the display of data values in pie and bar charts; see trees 'yeast duplicates' and 'bars' in the "DEMOS" project
   here are how the resulting plot look like:
-  for pie charts: 
+  for pie charts (see [EvolViewDatasetPieCharts#show_data_value here] for details): 
 https://lh4.googleusercontent.com/-ff51XU2Ttjw/VChwjWl5LAI/AAAAAAAAAXE/9nG_qbjTyec/w779-h443-no/EvolView__project_-_DEMOS__tree_-_yeast_duplications.png
 
   for bar charts (see [EvolViewDatasetBars#show_data_value here] for more details): 
