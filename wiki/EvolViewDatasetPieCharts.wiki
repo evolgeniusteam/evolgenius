@@ -2,6 +2,12 @@
 
 <wiki:toc max_depth="5" /> 
 
+== what's new ==
+
+  * added new functionality *show data value* in bar plots, see section: [EvolViewDatasetPieCharts#show_data_value Show data value]. Here is an example plot:
+
+https://lh4.googleusercontent.com/-ff51XU2Ttjw/VChwjWl5LAI/AAAAAAAAAXE/9nG_qbjTyec/w779-h443-no/EvolView__project_-_DEMOS__tree_-_yeast_duplications.png
+
 == pie charts overview ==
 
 *_NOTE_*
@@ -34,6 +40,7 @@ Supported Key-Value pairs for pie charts:
 || `!`maxradius || any float number > 0 || maximal pixel radius of the pies ||
 || `!`area || none || use user inputs as the areas of the pie charts ||
 || `!`radius || none || use user inputs as the radiuses of the pie charts ||
+|| _*new: show data values*_ ||  see section [EvolViewDatasetPieCharts#show_data_value show data value] for more details  || ||
 
 == notes on preparing your dataset!! ==
 *_NOTE:_* 
@@ -103,5 +110,52 @@ Saccharomyces_cerevisiae,Neurospora_crassa	0,0,28,143
 </pre>
 
 https://lh6.googleusercontent.com/-7xv0iAH4ZUQ/UZu5OpuSjjI/AAAAAAAAADE/Dwz_Q-Cf1Bs/w585-h397-no/pie2.png
+
+== show data value ==
+
+First, let's see an example using the same tree as above:
+
+<table border="1">
+<tr>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr>
+<td>
+    <pre>
+## for evolview; Yeast
+## by weihua chen; use Nature data
+## created at may 25, 2011
+!Groups	WGD-O,WGD-N,SSD-O,SSD_N
+!colors	#9F0251,#f88ef9,#effc00,#4D8963
+!legendstyle	rect
+!title	overlap with WGDs
+!opacity	0.8
+!showlegends	0
+!showDataValue	show=1,fontsize=12,fontcolor=darkblue,titalic=1
+Saccharomyces_cerevisiae,Saccharomyces_paradoxus	0,0,11,27
+Saccharomyces_cerevisiae,Saccharomyces_mikatae	0,0,0,25
+Saccharomyces_cerevisiae,Saccharomyces_bayanus	0,0,4,25
+Saccharomyces_cerevisiae,Candida_glabrata	0,0,2,20
+Saccharomyces_cerevisiae,Naumovia_castellii	869,0,0,0
+Saccharomyces_cerevisiae,Lachancea_waltii	0,0,0,40
+Saccharomyces_cerevisiae,Candida_albicans	0,0,9,51
+Saccharomyces_cerevisiae,Yarrowia_lipolytica	0,0,7,20
+Saccharomyces_cerevisiae,Neurospora_crassa	0,0,20,151
+</pre>
+</td>
+<td>
+https://lh4.googleusercontent.com/-ff51XU2Ttjw/VChwjWl5LAI/AAAAAAAAAXE/9nG_qbjTyec/w779-h443-no/EvolView__project_-_DEMOS__tree_-_yeast_duplications.png
+</td></tr>
+</table>
+
+The 'value' of the 'key' _*!showdataValue*_ can be any combination of the following, separated by a ",":
+
+||  || *alternative value* || *description* ||
+|| show = 1 || 0 || show or hide data values; optional; the data values will be shown if omitted ||
+|| fontsize=12 || any integer || set font size; optional; default = 10 ||
+|| fontcolor=red || any value color name || set text color; optional; default = black ||
+|| fontitalic=1 || 0 || set font italic; optional; default = 0 ||
+
 
 == more examples to be added ==
