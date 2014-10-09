@@ -7,6 +7,8 @@
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
+==== Oct 9, 2014 ====
+  * bug fixes
 ==== Oct 1, 2014 ====
   * fixed a UI bug that the UI behaves differently between firefox and google chrome.
 
