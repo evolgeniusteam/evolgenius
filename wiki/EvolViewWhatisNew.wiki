@@ -3,9 +3,12 @@
 == What's new ==
 
 ==== coming soon (Dec 15, 2014) ====
-  * share / public specific trees / projects (coming very soon)
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
+
+==== Dec 15, 2014 ====
+  * a major update has just been released, with a new feature that allows users to share trees to others to view, interact and even edit. See [https://code.google.com/p/evolgenius/wiki/EvolViewSharing here for the documentation].
+  * NOTE: this function is still under development; bugs are thus expected. Please send us feature requests, comments and suggestions!!
 
 ==== Dec 15, 2014 ====
   * added support for a new type of annotation: Group Labels; here is an example: 
