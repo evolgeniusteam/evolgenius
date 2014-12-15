@@ -2,12 +2,180 @@
 
 <wiki:toc max_depth="5" /> 
 
-== Group Labels overview ==
-
-Under construction
-
 *_NOTE_*
 
 _please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
 
-Group Labels will be displayed next to leaf labels. For example:
+== Group Labels overview ==
+
+Group labels will be displayed next to the leaf labels, therefore:
+  * it falls into the 'Charts' category, and 
+  * multiple Group Labels datasets can be displayed at the same time (unlike pies, users can upload multiple pies datasets, but only one dataset can be displayed at a time).
+
+Here is an quick example:
+
+https://lh4.googleusercontent.com/-4OiH1VcoZrg/VI6KctX1PMI/AAAAAAAAAbM/XDaN-3yCueQ/w424-h337-no/EvolView__project_-_Admin__tree_-_group_label.png
+
+Here is the tree:
+
+{{{(chicken,((mouse,rat),(chimp,human)));}}}
+
+And the dataset:
+<table border="1">
+<tr>
+<th>Dataset</th>
+</tr>
+<tr>
+<td>
+    <pre>
+!grouplabel	color=pink,show=1,fontsize=14,fontcolor=black,fontitalic=0,textalign=middle,textorientation=horizontal,linewidth=2
+chicken	text=cute by itself,fontcolor=red,linewidth=4
+mouse,rat	text=rodent,linecolor=darkgrey,fontcolor=purple,linestyle=dashed,textalign=middle
+chimp,human	text=mammal,color=darkgreen,textorientation=vertical,linewidth=4,fontsize=16
+</pre>
+</td></tr></table>
+
+=== Supported modifiers ===
+Apart from the common modifiers such as those that are related to legends ([https://code.google.com/p/evolgenius/wiki/EvolViewDatasetOverview see here for an overview]), Group Labels supports an additional modifier: *!groupLabel*.
+
+The _value_ of this modifier defines default settings for all group labels and can be any combination of the following, separated by a ",":
+||  || *alternative value* || *description* ||
+|| show=1 || 0 || show or hide group labels; optional; the data values will be shown if omitted ||
+|| color=pink || any color name or valid html hex colors such as #FF0000 || default color for group lines and labels; default = black ||
+|| linewidth=2 || any integer >= 0 || set width of the group line; default = 1; if set to 0, the group line is hidden; see examples bellow ||
+|| linestyle=dashed || || if set, a dotted group line will be plotted; default is regular line; see examples bellow ||
+|| fontcolor=black || any color name or valid html hex colors such as #FF0000 || default color of group labels; default = black; if omitted, uses 'color' ||
+|| fontsize=12 || any integer || set font size; optional; default = 10 ||
+|| fontitalic=1 || 0 || set font italic; optional; default = 0 ||
+|| textalign=middle || start or end || set text align; optional; default = middle; see the following examples ||
+|| textorientation=horizontal || vertical || set text orientation relative to leaf label; default = horizontal; see examples bellow ||
+
+=== Examples ===
+
+_*copy & paste the datasets to your tree to see the results*_
+
+<table border="1">
+<tr>
+<th>Dataset</th>
+<th>Plot</th>
+</tr>
+<tr>
+<td>
+    <pre>
+# group label ; let's start with a very simple example
+chicken	  text=cute by itself
+mouse,rat	text=rodent
+chimp,human	text=mammal
+</pre>
+</td>
+<td>
+TO BE ADDED
+</td></tr>
+<tr><td>
+ 
+<pre>
+# group label ; color applies to both the group labels and lines ...
+!GroupLabel	color=red
+chicken	  text=cute by itself
+mouse,rat	text=rodent
+chimp,human	text=mammal
+</pre>
+
+</td>
+<td>
+image to be added
+</td></tr>
+<tr><td>
+
+<pre>
+# group label ; now override the font size using 'fontcolor'; html hex color is also supported
+!GroupLabel	color=red,fontcolor=#0000FF
+chicken	  text=cute by itself
+mouse,rat	text=rodent
+chimp,human	text=mammal
+</pre>
+
+</td><td>
+image to be added
+</td></tr>
+<tr><td>
+
+<pre>
+# group label ; a more complicated example
+!GroupLabel	color=red,fontcolor=#0000FF,fontsize=20,fontitalic=1,textalign=start,textorientation=horizontal,linewidth=2
+chicken	  text=cute by itself
+mouse,rat	text=rodent
+chimp,human	text=mammal
+</pre>
+
+</td><td>
+to be added
+</td></tr>
+
+<tr> <td colspan=2> <b> ###  textalign=start|end|middle ### </b> </td> </tr>
+
+<tr><td>
+<pre>
+## by default group labels are placed at the middle of the group line; the positions can be specified using textalign with one of the three options: start, end or middle
+!GroupLabel	textalign=end
+chicken	  text=cute by itself
+mouse,rat	text=rodent
+chimp,human	text=mammal
+</pre>
+
+</td><td>
+image to be added
+</td></tr>
+
+<tr> <td colspan=2> <b> ###  textorientation=horizontal|vertical ; NOTE the difference with 'textalign' ### </b> </td> </tr>
+
+<tr><td>
+<pre>
+## -- textorientation specifies the orientation of group labels relative to leaf labels
+!GroupLabel	textorientation=vertical
+chicken	  text=cute by itself
+mouse,rat	text=rodent
+chimp,human	text=mammal
+</pre>
+</td><td>
+image to be added
+</td></tr>
+
+<tr><td>
+<pre>
+## -- textorientation can be used in combination with textalign --
+!GroupLabel	textalign=end,textorientation=vertical
+chicken	  text=cute by itself
+mouse,rat	text=rodent
+chimp,human	text=mammal</pre>
+</td><td>
+image to be added
+</td></tr>
+
+<tr> <td colspan=2> <b> ### use linewidth and linestyle to change the looks of group lines   #### </b> </td> </tr>
+
+<tr><td>
+<pre>
+!GroupLabel	linewidth=10,linestyle=dashed,color=red,fontcolor=black
+chicken	  text=cute by itself
+mouse,rat	text=rodent
+chimp,human	text=mammal
+</pre>
+</td><td>
+image to be added
+</td></tr>
+
+<tr> <td colspan=2> <b> ## by default, the settings in !GroupLabels will be applied to all group labels, however, they could be overridden by local settings </b> </td> </tr>
+
+<tr><td>
+<pre>
+!grouplabel	color=pink,show=1,fontsize=14,fontitalic=0,textalign=middle,textorientation=horizontal,linewidth=2
+chicken	text=cute by itself,linewidth=4
+mouse,rat	text=rodent,linecolor=darkgrey,fontcolor=purple,linestyle=dashed,textalign=middle
+chimp,human	text=mammal,color=darkgreen,textorientation=vertical,linewidth=4,fontsize=16,textalign=end
+</pre>
+</td><td>
+image to be added
+</td></tr>
+
+</table>
