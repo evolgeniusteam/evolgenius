@@ -29,7 +29,7 @@ And the dataset:
 <td>
     <pre>
 !grouplabel	color=pink,show=1,fontsize=14,fontcolor=black,fontitalic=0,textalign=middle,textorientation=horizontal,linewidth=2
-chicken	text=cute by itself,fontcolor=red,linewidth=4
+chicken	  text=cute by itself,fontcolor=red,linewidth=4
 mouse,rat	text=rodent,linecolor=darkgrey,fontcolor=purple,linestyle=dashed,textalign=middle
 chimp,human	text=mammal,color=darkgreen,textorientation=vertical,linewidth=4,fontsize=16
 </pre>
@@ -50,6 +50,9 @@ The _value_ of this modifier defines default settings for all group labels and c
 || textalign=middle || start or end || set text align; optional; default = middle; see the following examples ||
 || textorientation=horizontal || vertical || set text orientation relative to leaf label; default = horizontal; see examples bellow ||
 
+=== Data ===
+https://lh5.googleusercontent.com/-BjBbtkifP3M/VI6YWrVu_lI/AAAAAAAAAb4/b6xlPqdzXyI/w721-h159-no/Edit_EvolViewDatasetGroupLabels_-_evolgenius_-_Genius_ways_to_perform_evolutionary_analyses_-_Google_Project_Hosting.png
+
 === Examples ===
 
 _*copy & paste the datasets to your tree to see the results*_
@@ -69,7 +72,7 @@ chimp,human	text=mammal
 </pre>
 </td>
 <td>
-TO BE ADDED
+https://lh5.googleusercontent.com/-sFSaBg3mBrE/VI6kRwGGoiI/AAAAAAAAAck/1Cr73k13QdM/w284-h273-no/EvolView__project_-_Admin__tree_-_group_label.png
 </td></tr>
 <tr><td>
  
@@ -83,12 +86,12 @@ chimp,human	text=mammal
 
 </td>
 <td>
-image to be added
+https://lh6.googleusercontent.com/-WgsMUXsTw1A/VI6kTLLg3II/AAAAAAAAAcs/6yExLp3B2pE/w292-h234-no/EvolView__project_-_Admin__tree_-_group_label.png
 </td></tr>
 <tr><td>
 
 <pre>
-# group label ; now override the font size using 'fontcolor'; html hex color is also supported
+# group label ; now use a different color for the font; html hex color is also supported
 !GroupLabel	color=red,fontcolor=#0000FF
 chicken	  text=cute by itself
 mouse,rat	text=rodent
@@ -96,7 +99,7 @@ chimp,human	text=mammal
 </pre>
 
 </td><td>
-image to be added
+https://lh6.googleusercontent.com/-d3Ic9IoKcns/VI6kVTDlSfI/AAAAAAAAAc0/cvdkCul3pnc/w286-h231-no/EvolView__project_-_Admin__tree_-_group_label.png
 </td></tr>
 <tr><td>
 
@@ -109,7 +112,7 @@ chimp,human	text=mammal
 </pre>
 
 </td><td>
-to be added
+https://lh4.googleusercontent.com/-UBIKDKl-1s0/VI6kXT3zLAI/AAAAAAAAAc8/ocsysQV9H80/w332-h240-no/EvolView__project_-_Admin__tree_-_group_label.png
 </td></tr>
 
 <tr> <td colspan=2> <b> ###  textalign=start|end|middle ### </b> </td> </tr>
@@ -125,7 +128,7 @@ chimp,human	text=mammal
 </pre>
 
 </td><td>
-image to be added
+https://lh4.googleusercontent.com/-7-6eCCR1kLo/VI6kYt5DCQI/AAAAAAAAAdE/jCk31EGwtjQ/w283-h233-no/EvolView__project_-_Admin__tree_-_group_label.png
 </td></tr>
 
 <tr> <td colspan=2> <b> ###  textorientation=horizontal|vertical ; NOTE the difference with 'textalign' ### </b> </td> </tr>
@@ -139,7 +142,7 @@ mouse,rat	text=rodent
 chimp,human	text=mammal
 </pre>
 </td><td>
-image to be added
+https://lh3.googleusercontent.com/-5X4r3e-ACxM/VI6kaCYNOTI/AAAAAAAAAdM/YhXte2UO5ag/w333-h342-no/EvolView__project_-_Admin__tree_-_group_label.png
 </td></tr>
 
 <tr><td>
@@ -150,7 +153,7 @@ chicken	  text=cute by itself
 mouse,rat	text=rodent
 chimp,human	text=mammal</pre>
 </td><td>
-image to be added
+https://lh3.googleusercontent.com/-2AJe6zw4OWE/VI6kgCD6NNI/AAAAAAAAAdU/d9BHv_PqfZY/w315-h332-no/EvolView__project_-_Admin__tree_-_group_label.png
 </td></tr>
 
 <tr> <td colspan=2> <b> ### use linewidth and linestyle to change the looks of group lines   #### </b> </td> </tr>
@@ -163,10 +166,10 @@ mouse,rat	text=rodent
 chimp,human	text=mammal
 </pre>
 </td><td>
-image to be added
+https://lh3.googleusercontent.com/-2iDrXU944Kk/VI6kjHsbeRI/AAAAAAAAAdk/Q2fVzcQdn3o/w282-h279-no/EvolView__project_-_Admin__tree_-_group_label.png
 </td></tr>
 
-<tr> <td colspan=2> <b> ## by default, the settings in !GroupLabels will be applied to all group labels, however, they could be overridden by local settings </b> </td> </tr>
+<tr> <td colspan=2> <b> ## by default, the settings in !GroupLabel will be applied to all group labels, however, they could be overridden by local settings </b> </td> </tr>
 
 <tr><td>
 <pre>
@@ -176,7 +179,7 @@ mouse,rat	text=rodent,linecolor=darkgrey,fontcolor=purple,linestyle=dashed,texta
 chimp,human	text=mammal,color=darkgreen,textorientation=vertical,linewidth=4,fontsize=16,textalign=end
 </pre>
 </td><td>
-image to be added
+https://lh3.googleusercontent.com/-GUpAVHEAy1I/VI6kkl93gPI/AAAAAAAAAds/CH7ctFQ1pso/w345-h400-no/EvolView__project_-_Admin__tree_-_group_label.png
 </td></tr>
 
 </table>
