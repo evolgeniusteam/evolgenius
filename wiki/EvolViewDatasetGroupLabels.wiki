@@ -51,7 +51,7 @@ The _value_ of this modifier defines default settings for all group labels and c
 || textorientation=horizontal || vertical || set text orientation relative to leaf label; default = horizontal; see examples bellow ||
 
 === Data ===
-The Data part usually consists two parts, separated by a TAB.
+Each line of the Data section usually consists two parts, separated by a TAB.
 
 The first part defines to where the group label will be placed, it can be either:
   * names of two leaf labels, separated by a ',', or
