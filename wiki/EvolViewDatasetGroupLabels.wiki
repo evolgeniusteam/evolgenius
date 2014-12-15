@@ -51,6 +51,16 @@ The _value_ of this modifier defines default settings for all group labels and c
 || textorientation=horizontal || vertical || set text orientation relative to leaf label; default = horizontal; see examples bellow ||
 
 === Data ===
+The Data part usually consists two parts, separated by a TAB.
+
+The first part defines to where the group label will be placed, it can be either:
+  * names of two leaf labels, separated by a ',', or
+  * a name of a leaf label.
+
+The second part specifics the 'label' (required) and optional settings for this label such as font color, size. 
+
+See bellow:
+
 https://lh5.googleusercontent.com/-BjBbtkifP3M/VI6YWrVu_lI/AAAAAAAAAb4/b6xlPqdzXyI/w721-h159-no/Edit_EvolViewDatasetGroupLabels_-_evolgenius_-_Genius_ways_to_perform_evolutionary_analyses_-_Google_Project_Hosting.png
 
 === Examples ===
