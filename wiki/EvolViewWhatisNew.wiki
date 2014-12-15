@@ -2,8 +2,8 @@
 
 == What's new ==
 
-==== coming soon (June 27, 2014) ====
-  * share / public specific trees / projects
+==== coming soon (Dec 15, 2014) ====
+  * share / public specific trees / projects (coming very soon)
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
