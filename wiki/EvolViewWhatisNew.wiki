@@ -7,6 +7,12 @@
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
+==== Dec 15, 2014 ====
+  * added support for a new type of annotation: Group Labels; here is an example: 
+https://lh5.googleusercontent.com/-IgYyV_P7ut4/VI6o6V9RjVI/AAAAAAAAAeM/jKPCqE_zli0/w319-h169-no/EvolView__project_-_my_trees__tree_-_for_documentation.png
+
+See [https://code.google.com/p/evolgenius/wiki/EvolViewDatasetGroupLabels here for the documentation].
+
 ==== Oct 9, 2014 ====
   * bug fixes
 ==== Oct 1, 2014 ====
