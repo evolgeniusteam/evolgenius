@@ -6,6 +6,9 @@
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
+==== Jan 2, 2015  ====
+  * fixed a bug in tree sharing caused by case-sensitive setting of MySQL at the server-end
+
 ==== Dec 15, 2014 ====
   * a major update has just been released, with a new feature that allows users to share trees to others to view, interact and even edit. See [https://code.google.com/p/evolgenius/wiki/EvolViewSharing here for the documentation].
   * NOTE: this function is still under development; bugs are thus expected. Please send us feature requests, comments and suggestions!!
