@@ -4,6 +4,11 @@
 == change the branch and leaf colors of the tree ==
 in the following we'll add several datasets to change the appearances of the tree. 
 
+Let's use the same tree again:
+{{{
+(chicken,((mouse,rat),(chimp,human)));
+}}}
+
   * First of all add a dataset named "branch colors" to change the colors of the branches by clicking the "branch colors" icon on the "Annotation upload" tab:
     <pre>
  ## lines start with # are annotations; you can put an annotation line
@@ -15,13 +20,13 @@ human,chicken	grey	ad
 ## and then highlight the branches connecting human and chimp
 human,chimp	red	ad
 </pre>
-    https://img.skitch.com/20120508-d7q48fp6fyye9x8wm81ng1ef5r.png
+    
 
-||before applying the dataset||https://img.skitch.com/20111210-jjm2yfbqcef7itsrufs243s551.png||
-||after||https://img.skitch.com/20111210-pxfuu53dd9xwfyftwjgyw6hcge.png||
+||before applying the dataset||https://www.evernote.com/shard/s130/sh/5985b49b-7f2b-4eb9-b1ad-3afbbced36fb/0741ed72df13ce85414560ec32b52518||
+||after||https://www.evernote.com/shard/s130/sh/07f6ca6d-ec5a-4222-8423-107080345b7a/0cb1ef05cf50a0e38d300cf258989fd7/res/65fc691c-790d-477c-a67f-5b1d8dee4548/skitch.png||
 
   * then add another dataset to change colors of the tree leaves to match the colors of their corresponding branches by clicking the "tree leaf colors" icon on the "Annotation upload" tab:
-    https://img.skitch.com/20120508-qb3xf2mi81x4pg694fdibi5whx.png
+    https://www.evernote.com/shard/s130/sh/4c467292-8e44-4979-b37f-6ea0604289b2/3455f79768e9a981df79da482e7d6d87/res/20792906-d990-417e-8ddb-c6eafd5d6beb/skitch.png
     <pre>
  ## let the dataset begin
 ##   each line of the 'data part' consists three fields sparated by a 'tab' character
@@ -44,4 +49,4 @@ human,chicken	grey	ad
 human,chimp	red	ad
 </pre>
 
-||after applying the dataset||https://img.skitch.com/20111210-pm6iej39x11iiiq7yq2m7q5ae6.png||
+||after applying the dataset||https://www.evernote.com/shard/s130/sh/ce9c33ea-5a21-4634-b02a-d5a6248dbbfe/086b7a098ac766d8e7d2dacb9b5f6ebd/res/c2accd88-4b7c-4eb0-a71d-85cda77fdb36/skitch.png||
