@@ -10,10 +10,10 @@ The following topics will be covered in this section:
 
 === Get started ===
 To upload a dataset for domain annotations, user can simply go to the "Annotation upload" tab, and click the "protein domain" icon:
-https://img.skitch.com/20120515-1tbjeb9udj482ej4u8m5di837n.png
+https://www.evernote.com/shard/s130/sh/6c2d37dc-aa80-4dd3-b13c-ad5ee1a239cd/d879ae6c98b2f2872ec3a912b9213dba/res/e15034b7-0fd9-4f06-a0a5-ad2376c9a023/skitch.png
 
 A dialogbox will then appear:
-https://img.skitch.com/20120515-rsh3xch12ahk78m7gic7knj213.png
+https://www.evernote.com/shard/s130/sh/219102ef-6d90-460e-bbbd-0494d911a184/5a8d20494b24d51cb829c8154af72c66/res/83643e11-6534-4a09-886c-eca3ee482703/skitch.png
 
 User can choose to either copy and paste the contents of the dataset by hand, upload from a text file, or retrieve automatically from public resources like PFAM. 
 
@@ -59,13 +59,6 @@ Krueppel-like factor 9
 
 EvolView will parse the retrieved data, and paste the results to the text box bellow the button.
 
-In cases certain leaf names don't have corresponding records in PFAM, a warning message will be shown:
-https://img.skitch.com/20120515-fwc4cc1hnki65bk6jymts7eq8k.png
-
-The corresponding leaf names will be added at the end of annotation; a protein length of 0 will be assigned to each automatically. User can choose to edit them by hand.
-
-https://img.skitch.com/20120515-exmhfmcb9m9rcckat45b9kpx4m.png
-
 By default, several "modifiers" will be automatically generated and added to the beginning of the dataset (see the figure above).
 
 === Write domain annotations by hand ===
@@ -79,7 +72,7 @@ The first two columns are protein name and protein length, respectively. The thi
 Columns are separated by a single 'tab' symbol, so that user can prepare the annotation using any standard spreadsheet program (for example Office Excel, iWorks Numbers and LibreOffice Calc).
 
 Typically a domain-architecture column contains the following nine fields separated by ","s:
-https://img.skitch.com/20120515-q7jc3k9ee9481msm1kddqrk5ye.png
+https://www.evernote.com/shard/s130/sh/4472fd8a-a883-492c-a78b-075199c26b82/71b2e7abd67acb362e0ef724e5f9eaa2/res/ef736a1e-14dd-46b4-a027-8d2dd51612a0/skitch.png
 
 in which the first two are mandatory; the rest can be left blank if not available.
 
@@ -101,7 +94,7 @@ In this section we use an example to show how to use the "automatic annotation" 
 
   * first, add a new tree by click the "folder" icon on the "Basic" tab:
 
-https://img.skitch.com/20120508-tyx4n83ukny6nhqeuri4dp4rt9.png
+https://www.evernote.com/shard/s130/sh/bd3be558-a404-4b43-9b25-654b2a821939/ae956388f07c8028395d4294be7441c6/res/8cc3edf6-b6f2-4f6f-9123-6fd02748e47b/skitch.png
 
   * second, copy and paste the following tree to the textbox in the popup dialogbox, choose a name for the tree (for example PF07707), and click the "Submit" button.
 
@@ -146,11 +139,9 @@ KLH31_DANRE:0.04945)0.96:0.5586)0.76:0.2286,KLH30_XENLA:1.462)0.099:0.209,
 
   * third, go to the "Annotation upload" tab, click the "protein domain" icon, and then click the "retrieve data from PFAM" icon in the dialogbox. User will get a busy message during the data retrieval:
 
-https://img.skitch.com/20120515-n28738dbtg1cttsd7h3j73n94t.png
-
   * last, click the "Submit" button if there is no error, the domains will be plotted next to the tree:
 
-https://img.skitch.com/20120515-gqcq16hy469cyjpn4s7rcku613.png
+https://www.evernote.com/shard/s130/sh/62f45a84-022d-4f3c-885f-c5a31c225bf3/b69bc54ec43e51652a67035cd6f0f82f/res/7ee951c8-4da4-4de0-9219-4bf3c0bd920e/skitch.png
 
 by default, a random color will be assigned to a protein domain, and the color - domain relationships will be plotted in the legend. 
 
