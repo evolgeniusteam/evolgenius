@@ -26,6 +26,11 @@ Supported Key-Value pairs for pie charts:
 == data and examples ==
 Data are usually tab-delimited three-column texts, with the third column optional.
 
+Again, we use the same tree as example:
+{{{
+(chicken,((mouse,rat),(chimp,human)));
+}}}
+
 === first column: the location ===
 the first column dictates where the data to be plotted. It usually contains the name of a leaf node, or two leaf names separated by a ','.
 
@@ -59,7 +64,7 @@ human	red
 </pre>
 </td>
 <td>
-https://img.skitch.com/20111209-tbt68i3yj77ap3b1nkgxaiy655.png
+https://www.evernote.com/shard/s130/sh/1ec434f3-ab2a-4b35-b4ba-9af2364417bc/623980dcf1647a28ecd4a22ebd36a068/res/c50b32d7-9850-43fd-8dcb-7821c44faae0/skitch.png
 </td></tr>
 </table>
 
@@ -84,7 +89,7 @@ human,mouse	pink	ad
 </pre>
 </td>
 <td>
-https://img.skitch.com/20111209-tkpbhtimewydsn1dydduk5gg5a.png
+https://www.evernote.com/shard/s130/sh/d50cd521-0475-491e-8ab2-916534abce01/ff87e9b5c6acb0701de7c0733fd225ef/res/7eb838a3-f0bb-455d-9ead-d667bb4a1dbf/skitch.png
 </td></tr>
 <tr><td>
     <pre>
@@ -93,7 +98,7 @@ ch	yellow	prefix
 </pre>
 </td>
 <td>
-https://img.skitch.com/20111209-qwcuf838f5imc1ceyk77wqf7in.png
+https://www.evernote.com/shard/s130/sh/932e2d6b-b098-4ae5-889e-be2eb6b7a537/c2316a5c866e33ce821922378cb06435/res/54b926e4-7028-488a-bd38-a8140c6cd3c7/skitch.png
 </td></tr>
 <tr><td>
     <pre>
@@ -102,15 +107,15 @@ n	blue	suffix
 </pre>
 </td>
 <td>
-https://img.skitch.com/20111209-rergxsq22t59bg83ewnbqmc12m.png
+https://www.evernote.com/shard/s130/sh/dbe7587a-d0f1-46c0-9fd9-22d338f04e7f/ae3d34482a46846c1bfab4a69369d45a/res/34ada58d-268f-4d54-95b4-edb2bd6acd19/skitch.png
 </td></tr>
 <tr><td>
     <pre>
  ## leaf color
-m	darkblue	anywhere
+m	purple	anywhere
 </pre>
 </td>
 <td>
-https://img.skitch.com/20111209-rxgxyi3un4krgqi7c1km5r4usd.png
+https://www.evernote.com/shard/s130/sh/6fbfaf4d-0862-4a43-a2b5-fda78590f0a8/c7dc776d49c5728005c0155a2c2c65e9/res/cb0f9421-9667-482e-87cb-fa8ae2c79f9d/skitch.png
 </td></tr>
 </table>
