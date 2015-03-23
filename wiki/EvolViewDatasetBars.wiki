@@ -86,7 +86,7 @@ D	20,3,4
 </pre>
 </td>
 <td>
-http://img.skitch.com/20111122-j3cddm2sydmq7ebnia8e46ix4j.png
+https://www.evernote.com/shard/s130/sh/4d3d4285-50f2-46a7-9262-0241232e0da7/06693da8232dc7b49a06b83f88ad9a16/res/54f2b7fb-3cc3-4e9a-9490-cec0a681767c/skitch.png
 </td></tr>
 <tr><td>
     <pre>
@@ -94,7 +94,8 @@ http://img.skitch.com/20111122-j3cddm2sydmq7ebnia8e46ix4j.png
 !grid
 </pre>
 </td>
-<td>http://img.skitch.com/20111122-fnu17e36jqkhb9ued9u9fcukwq.png
+<td>
+https://www.evernote.com/shard/s130/sh/0aac8ff7-d1f2-47c1-8a0d-65dd38042467/54729bc99c598a52a72ebec537444607/res/eadcb4b7-26e5-4549-b2cd-89f11a939108/skitch.png
 </td></tr>
 <tr><td>
     <pre>
@@ -104,7 +105,7 @@ http://img.skitch.com/20111122-j3cddm2sydmq7ebnia8e46ix4j.png
 !align
 </pre>
 </td><td>
-http://img.skitch.com/20111122-e6icdairtb4xn9wgrii1pux2gb.png
+https://www.evernote.com/shard/s130/sh/02ca202c-273a-4ea8-a9f9-6bb27c695edb/9b4ddc6845a59fbcb9c0d442bda9acb5/res/5b3d127b-c0fe-4309-a0f1-2ccfadae5e30/skitch.png
 </td></tr>
 <tr><td>
     <pre>
@@ -112,7 +113,7 @@ http://img.skitch.com/20111122-e6icdairtb4xn9wgrii1pux2gb.png
 !Fanplot
 </pre>
 </td><td>
-http://img.skitch.com/20111122-p5r9rid311qn72kn8cy6k6h5yt.png
+https://www.evernote.com/shard/s130/sh/7bc87909-f53e-405c-a36b-8e523607db36/b8f92e82314be695bda4964534d4ec83/res/c59ce1f2-b19a-40fc-84c3-4a020ecd9ad4/skitch.png
 </td></tr>
 <tr><td>
     <pre>
