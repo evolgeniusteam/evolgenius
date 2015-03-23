@@ -52,6 +52,10 @@ Supported Key-Value pairs for color charts:
 
 
 == examples ==
+Here is the tree:
+{{{
+(chicken,((mouse,rat),(chimp,human)));
+}}}
 <table border="1">
 <tr>
 <th>Dataset</th>
@@ -72,7 +76,7 @@ chimp	grey,darkgreen,grey,pink
 human	orange,red,yellow,lightblue
 </pre>
 </td><td>
-https://img.skitch.com/20111209-8783r2t362pb83mfdnr6tdi72.png
+https://www.evernote.com/shard/s130/sh/adc6b356-e863-4f84-a3c0-9774af069ea1/be18c5f3c983b80d6009ca8edcec3c5a/res/bacc3ab2-7311-484e-823c-524596bc1df4/skitch.png
 </td></tr></table>
 
 == plot width, widths and heights of individual shapes ==
