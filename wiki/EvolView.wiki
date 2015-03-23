@@ -1,7 +1,7 @@
 #summary EvolView: an online phylogenetic tree viewer and customization tool
 #sidebar TableOfContents
 
-https://img.skitch.com/20111215-t3c4in9n21fcgxjccess4b499b.png
+https://www.evernote.com/shard/s130/sh/9d5b41c7-7292-41e9-b477-c80117b4a97e/3b496146cc8145b3cf275e0c23ce22a8/res/339accfa-5462-4910-bc15-4e2b795dbf81/skitch.png
 
 [http://evolgenius.info/evolview.html EvolView] is an easy-to-use online tool for displaying, managing and customizing phylogenetic trees.
 
