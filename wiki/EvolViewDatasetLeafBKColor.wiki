@@ -61,7 +61,7 @@ the tree:
 mouse	red
 </pre>
 </td><td>
-https://img.skitch.com/20111209-g27erp3hhnn74wb8eyujfuhmpi.png
+https://www.evernote.com/shard/s130/sh/16cfca45-4a27-4f0b-8e91-7fe9ff383186/616179c9c839f22f0c502d3ae3e75918/res/1615093d-b41d-4a27-b6a8-4def78fd949e/skitch.png
 </td></tr>
 </table>
 
@@ -85,7 +85,7 @@ For example:
 human,mouse	lightblue	ad
 </pre>
 </td><td>
-https://img.skitch.com/20111209-dg9jy8jhd182fim1x4hb8edqac.png
+https://www.evernote.com/shard/s130/sh/de0e321a-a466-49ff-accd-96fe56af3943/a1713af3227f1b92028025da1c1dd671/res/ec8411e1-c751-4413-a924-29898686fcd7/skitch.png
 </td></tr>
 <tr><td>
     <pre>
@@ -94,7 +94,7 @@ mouse,human	grey	ad
 ch	yellow	prefix
 </pre>
 </td><td>
-https://img.skitch.com/20111209-j95db7k4mqqcyqwn9tphp95khu.png
+https://www.evernote.com/shard/s130/sh/1c2587f9-0595-4dcc-9cf3-a2a45dc7645b/2d80981fcbbdf87aad3c37c667715fd1/res/2762b683-8636-481d-b318-6a0cc81d24ef/skitch.png
 </td></tr>
 <tr><td>
     <pre>
@@ -103,5 +103,5 @@ chicken,human	grey	ad
 n	blue	suffix
 </pre>
 </td><td>
-https://img.skitch.com/20111209-cmka8ej3jhuha4ik4extsqerkx.png
+https://www.evernote.com/shard/s130/sh/a8b7dbb2-a449-4d21-9f21-458569a4159c/13e81bc60f07de06f6ffb0abfe2a2e96/res/b35b83ea-3b8c-4e21-8b7e-88e7442884f7/skitch.png
 </td></tr></table>
