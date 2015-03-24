@@ -22,7 +22,7 @@ To retrieve domains automatically from PFAM, user can simply click the green but
 
 EvolView uses leaf names of current active tree to query PFAM database using the PFAM URL API. For example, if a leaf name is "KLF9_HUMAN", the URL to retrieve data will look like:
 {{{
-http://pfam.sanger.ac.uk/protein/KLF9_HUMAN?output=xml
+http://pfam.xfam.org/protein/KLF9_HUMAN?output=xml
 }}}
 The retrieved data is in XML format, as shown bellow:
 {{{
