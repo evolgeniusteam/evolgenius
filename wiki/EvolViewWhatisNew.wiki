@@ -6,6 +6,11 @@
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
+====  March 24, 2015  ====
+  * bug fixes
+  * added four more styles for group labels; See [https://code.google.com/p/evolgenius/wiki/EvolViewDatasetGroupLabels here for the documentation].
+  * added two more example trees to the 'DEMOS' project to showcase the group labels
+
 ==== Jan 2, 2015  ====
   * fixed a bug in tree sharing caused by case-sensitive setting of MySQL at the server-end
 
