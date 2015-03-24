@@ -8,6 +8,7 @@
 
 ====  March 24, 2015  ====
   * bug fixes
+  * updated the pfam domain api
   * added four more styles for group labels; See [https://code.google.com/p/evolgenius/wiki/EvolViewDatasetGroupLabels here for the documentation].
   * added two more example trees to the 'DEMOS' project to showcase the group labels
 
