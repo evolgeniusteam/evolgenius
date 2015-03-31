@@ -29,6 +29,7 @@
       * [EvolViewProteinDomain Protein domains]
       * [EvolViewDatasetLeafDecoration Leaf label decorations]
       * [EvolViewDatasetGroupLabels Group Labels]
+      * [EvolViewDatasetDotplots Dot Plots]
     * [EvolViewSharing Tree Sharing]
     * [EvolViewTreeFormats Supported phylogenetic tree formats]
     * [ContactUs Have questions? contact us by email]
