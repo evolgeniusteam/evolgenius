@@ -81,3 +81,4 @@ in this case, an 'ad' dictates that the branches of not only the common ancestor
   # [EvolViewProteinDomain Protein domains]
   # [EvolViewDatasetLeafDecoration Leaf label decorations]
   # [EvolViewDatasetGroupLabels Group labels]
+  # [EvolViewDatasetDotplots Dot Plots]
