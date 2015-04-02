@@ -75,6 +75,8 @@ The following 'modifiers' (Key-Value pairs) are supported for bar charts:
 || _*modifiers shared with Bar Charts*_  || || modifiers that apply to both Bar Charts and Dot Plots ||
 || `!`grid || none || show a background grid ||
 || `!`gridlabel or `!`axis || none || show grid labels (note: does not work in circular modes ||
+|| `!`defaultStrokeWidth || any value >= 0 || stroke width that applies to both legends and the chart ||
+|| `!`defaultStrokeColor || any valid color name such as red and yellow and html hex color such as #FF00FF || stroke color that applies to both legends and the chart; see [EvolViewAboutStroke here for more about stroke colors]; also see the section [EvolViewDatasetDotplots#strokes bellow] ||
 || _*dot plots specific*_  || || ||
 || `!`scalebycol  || none || scale the data by column, i.e. the max value in a column will take the maximum plot width of a column; default is to scale by the maximum of all data  ||
 || `!`dotplots || see section [EvolViewDatasetDotplots#the_!dotplots_modifier the !dotplots modifier] || ||
@@ -85,6 +87,8 @@ The following 'modifiers' (Key-Value pairs) are supported for bar charts:
   # *if a modifier is used (accidentally) multiple tiles, only the last one will be used.*
   # *the "data" part of this dataset can only contain two columns of tab-delimited texts; the third column, if presents, will be ignored*
   # *please also always use TAB to separate the columns in the data section.*
+
+== strokes ==
 
 == the !dotplots modifier ==
 
