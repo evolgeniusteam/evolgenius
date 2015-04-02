@@ -77,7 +77,7 @@ The following 'modifiers' (Key-Value pairs) are supported for bar charts:
 || `!`gridlabel or `!`axis || none || show grid labels (note: does not work in circular modes ||
 || _*dot plots specific*_  || || ||
 || `!`scalebycol  || none || scale the data by column, i.e. the max value in a column will take the maximum plot width of a column; default is to scale by the maximum of all data  ||
-|| `!`dotplots || see section [EvolViewDatasetDotplots#the_!dotplots_modifier] || ||
+|| `!`dotplots || see section [EvolViewDatasetDotplots#the_!dotplots_modifier the !dotplots modifier] || ||
 || _* show data values*_ ||  see section [EvolViewDatasetDotplots#show_data_value show data value] for more details  || ||
 
 == notes on preparing your datasets!! ==
