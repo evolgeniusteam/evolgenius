@@ -1,5 +1,91 @@
-#summary One-sentence summary of this page.
+#summary help page for dotplots
+#labels 0
 
-= Introduction =
+<wiki:toc max_depth="5" /> 
 
-under construction at the moment; email us (evolgenius.team@gmail.com) ... 
+== dot plots overview ==
+
+*_NOTE_*
+
+_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
+
+Dot plot is a variant of [EvolViewDatasetBars Bar chart], therefore a dataset for Bar charts can be used directly.
+
+First, let's see some examples:
+
+Let's start with a simple tree:
+{{{
+(A:0.1,(B:0.2,(C:0.3,D:0.4)100:0.05)100:0.1)90:0.43;
+}}}
+
+... and an example dataset:
+<table border="0">
+<tr>
+<td>
+    <pre>
+##dot plots
+!groups	dot 1,dot 2,dot 3
+!colors	#028482,#7ABA7A,#B76EB8
+!title	Example of dot plot
+# -- legends --
+!legendstyle	circle
+!showLegends	1
+## -- if !scalebycol is set to 1, each column of data will be scaled independently
+!scalebycol	0
+!byarea	1
+# ---- grid and grid label / group label are also supported --
+!grid	1
+!gridlabel	1
+# stroke and stroke color also work here 
+!defaultStrokeColor	pink
+#!defaultStrokeWidth	2
+# here shape can be 'rect' or 'circle'; roundedcorner only applies to 'rect' shapes ...
+!dotplots	shape=circle,margin=2,colwidth=30,roundedcorner=3
+## -- show data value works at here as well --
+!showdataValue	show=1,fontsize=12,fontitalic=0,fontcolor=white
+A	8,13,5
+B	10,20,20
+C	8,9,7
+D	20,20,20
+</pre>
+</td>
+</tr>
+</table>
+
+here is how the plot looks like:
+
+https://www.evernote.com/shard/s130/sh/448ee260-ff2d-434b-b0f6-98dbe6957604/8d7ebae965637ab9c019ceee0c1a1527/res/3399e28b-3cba-43d3-b2c8-8ef5db867524/skitch.png
+
+By default, data are represented by dots / filled circles; however they could be alternatively represented by rectangular:
+
+*_ TODO : add a rect plot  _*
+
+== supported 'modifiers' ==
+
+The following 'modifiers' (Key-Value pairs) are supported for bar charts:
+
+|| *Key* (case insensitive) || *Value* || *Description* ||
+|| _*universal modifiers*_  || || ||
+|| `!`Groups or `!`LegendText ||comma separated text|| Legend texts; for example 'group_a,group_b,group_c'||
+|| `!`LegendStyle or `!`Style  || rect or circle or star || shapes to be plotted before the legend texts; default = rect ||
+|| `!`LegendColors or `!`Colors ||comma separated color codes or names|| colors to be applied to the shapes specified by !LegendStyle; for example 'red,green,yellow' ; note the number of colors should match the number of legend fields||
+|| `!`Title or `!`Legend || text || title of the legend; default = name of the dataset || 
+|| `!`ShowLegends || 0 or 1 || 0 : hide legends; 1 : show legends ||
+|| `!`opacity || float number between 0 to 1 || opacity of the dataset ||
+|| _*modifiers shared with Bar Charts*_  || || modifiers that apply to both Bar Charts and Dot Plots ||
+|| `!`grid || none || show a background grid ||
+|| `!`gridlabel or `!`axis || none || show grid labels (note: does not work in circular modes ||
+|| _*dot plots specific*_  || || ||
+|| `!`scalebycol  || none || scale the data by column, i.e. the max value in a column will take the maximum plot width of a column; default is to scale by the maximum of all data  ||
+|| `!`dotplots || see section [EvolViewDatasetDotplots#the_!dotplots_modifier] || ||
+|| _* show data values*_ ||  see section [EvolViewDatasetDotplots#show_data_value show data value] for more details  || ||
+
+== notes on preparing your datasets!! ==
+  # *please always use TAB to separate the modifiers and their values.*
+  # *if a modifier is used (accidentally) multiple tiles, only the last one will be used.*
+  # *the "data" part of this dataset can only contain two columns of tab-delimited texts; the third column, if presents, will be ignored*
+  # *please also always use TAB to separate the columns in the data section.*
+
+== the !dotplots modifier ==
+
+== show data value ==
