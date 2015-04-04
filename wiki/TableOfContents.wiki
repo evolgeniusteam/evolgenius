@@ -30,6 +30,7 @@
       * [EvolViewDatasetLeafDecoration Leaf label decorations]
       * [EvolViewDatasetGroupLabels Group Labels]
       * [EvolViewDatasetDotplots Dot Plots]
+      * [EvolViewDatasetHeatmap Heatmap]
     * [EvolViewSharing Tree Sharing]
     * [EvolViewTreeFormats Supported phylogenetic tree formats]
     * [ContactUs Have questions? contact us by email]
