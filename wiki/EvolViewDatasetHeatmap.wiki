@@ -21,7 +21,7 @@ Let's start with a simple tree:
 <table border="0">
 <tr>
 <td>
-    <pre>
+<pre>
 #heatmap
 !legendTitle	Example of heatmap
 !showLegends	1
