@@ -6,11 +6,16 @@
   * add images to nodes / branches (??)
   * hide / show names of internal nodes
 
+==== April 4, 2015 ====
+  * bug fixes as always
+  * added a new annotation type: heatmap: https://www.evernote.com/shard/s130/sh/44d70834-aeb4-4fb0-86cc-258eb06a6f0a/c9c06609fa5ab4562c3be3bacd8fbd1c/res/5b2444ff-a1c1-4845-a3d6-d4dca88bd0e3/skitch.png
+  see here for [EvolViewDatasetHeatmap the documentation for heatmap].
+
 ==== March 31, 2015 ====
   * bug fixes (there are always bugs somewhere ... )
   * added a new annotation type: dot plot; here is an example:
 https://www.evernote.com/shard/s130/sh/2243ad16-1f95-45ef-b35e-7cbf7e7e466f/bff76fb9b9eff51464723c49a8223b9e/res/af4566e9-4925-4037-ba7e-2bd9ec128f98/skitch.png
-  * [https://code.google.com/p/evolgenius/wiki/EvolViewDatasetDotplots documentation] coming soon ...
+  * see here for [EvolViewDatasetDotplots the documentation for dot plots]
 
 ====  March 24, 2015  ====
   * bug fixes
