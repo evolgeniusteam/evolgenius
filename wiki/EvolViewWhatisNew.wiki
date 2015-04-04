@@ -9,7 +9,7 @@
 ==== March 31, 2015 ====
   * bug fixes (there are always bugs somewhere ... )
   * added a new annotation type: dot plot; here is an example:
-https://www.evernote.com/shard/s130/sh/448ee260-ff2d-434b-b0f6-98dbe6957604/8d7ebae965637ab9c019ceee0c1a1527/res/3399e28b-3cba-43d3-b2c8-8ef5db867524/skitch.png
+https://www.evernote.com/shard/s130/sh/2243ad16-1f95-45ef-b35e-7cbf7e7e466f/bff76fb9b9eff51464723c49a8223b9e/res/af4566e9-4925-4037-ba7e-2bd9ec128f98/skitch.png
   * [https://code.google.com/p/evolgenius/wiki/EvolViewDatasetDotplots documentation] coming soon ...
 
 ====  March 24, 2015  ====
