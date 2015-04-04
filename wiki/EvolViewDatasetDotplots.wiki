@@ -27,7 +27,7 @@ Let's start with a simple tree:
     <pre>
 ##dot plots
 !groups	dot 1,dot 2,dot 3
-!colors	#028482,#7ABA7A,#B76EB8
+!colors	#028482,#7ABA7A,yellow
 !title	Example of dot plot
 # -- legends --
 !legendstyle	circle
@@ -44,7 +44,7 @@ Let's start with a simple tree:
 # here shape can be 'rect' or 'circle'; roundedcorner only applies to 'rect' shapes ...
 !dotplots	shape=circle,margin=2,colwidth=30,roundedcorner=3
 ## -- show data value works at here as well --
-!showdataValue	show=1,fontsize=12,fontitalic=0,fontcolor=white
+!showdataValue	show=1,fontsize=12,fontitalic=0,fontcolor=black
 A	8,13,5
 B	10,20,20
 C	8,9,7
@@ -56,11 +56,11 @@ D	20,20,20
 
 here is how the plot looks like:
 
-https://www.evernote.com/shard/s130/sh/448ee260-ff2d-434b-b0f6-98dbe6957604/8d7ebae965637ab9c019ceee0c1a1527/res/3399e28b-3cba-43d3-b2c8-8ef5db867524/skitch.png
+https://www.evernote.com/shard/s130/sh/2243ad16-1f95-45ef-b35e-7cbf7e7e466f/bff76fb9b9eff51464723c49a8223b9e/res/af4566e9-4925-4037-ba7e-2bd9ec128f98/skitch.png
 
 By default, data are represented by dots / filled circles; however they could be alternatively represented by rectangular:
 
-https://www.evernote.com/shard/s130/sh/506f5865-8f50-431a-b6c8-6e4f2bfa2c0c/8daf4926728737bf24f0c45a13d12ccd/res/83f98c5f-e129-4a9c-acdb-e1ec87235d73/skitch.png
+https://www.evernote.com/shard/s130/sh/275854cf-6f98-41f1-8e87-b323bce98fc6/d252b32889ab7627a9286c7f07015d2a/res/790adf2a-41e3-40c2-8c3a-f0884dd0f598/skitch.png
 
 Here is the dataset:
 
@@ -70,20 +70,21 @@ Here is the dataset:
     <pre>
 ##dot plots
 !groups	dot 1,dot 2,dot 3
-!colors	#028482,#7ABA7A,#B76EB8
+!colors	#028482,#7ABA7A,yellow
 !title	Example of dot plot
-## ----- change legend style to rect 
 !legendstyle	rect
 !showLegends	1
 !byarea	1
 !grid	1
 !gridlabel	1
-#!defaultStrokeColor	pink
-!defaultStrokeWidth	2
-## -- change shape to rect --
+!defaultStrokeColor	pink
+#!defaultStrokeWidth	2
 !dotplots	shape=rect,margin=2,colwidth=30,roundedcorner=3
-!showdataValue	show=1,fontsize=12,fontitalic=0,textalign=start,fontcolor=white
+!showdataValue	show=1,fontsize=12,fontitalic=0,textalign=start,fontcolor=black
 A	8,13,5
+B	10,20,20
+C	8,9,7
+D	20,20,20A	8,13,5
 B	10,20,20
 C	8,9,7
 D	20,20,20
@@ -183,5 +184,68 @@ The 'value' of the 'key' _*!showdataValue*_ can be any combination of the follow
 ||  || *alternative value* || *description* ||
 || show = 1 || 0 || show or hide data values; optional; the data values will be shown if omitted ||
 || fontsize=12 || any integer || set font size; optional; default = 10 ||
-|| fontcolor=red || any value color name || set text color; optional; default = black ||
+|| fontcolor=red || any value color name || set text color; optional; default = 'black' or 'white' depending on the background color ||
 || fontitalic=1 || 0 || set font italic; optional; default = 0 ||
+
+
+*NOTE: * when 'fontcolor' is omitted, the default font color will be either 'black' or 'white' depending the background color, for example:
+
+https://www.evernote.com/shard/s130/sh/a412ebd5-bc74-4c8c-abd2-7278a55e74be/6f0beba8e9886e630587466973888e15/res/7ec877c4-6f3d-4734-8e0a-ec5ae5ad215c/skitch.png
+
+The purpose here is to ensure the readability of the texts on any background colors.
+
+Here is the dataset:
+
+<table border="0">
+<tr>
+<td>
+    <pre>
+!groups	dot 1,dot 2,dot 3
+!colors	#028482,#7ABA7A,yellow
+!title	Example of dot plot
+!legendstyle	circle
+!showLegends	1
+!byarea	1
+!grid	1
+!gridlabel	1
+!defaultStrokeColor	pink
+!dotplots	shape=circle,margin=2,colwidth=30,roundedcorner=3
+!showdataValue	show=1,fontsize=12,fontitalic=0,textalign=start
+A	8,13,5
+B	10,20,20
+C	8,9,7
+D	20,20,20
+</pre>
+</td>
+</tr>
+</table>
+
+In this particular case, if we force the text color to 'white':
+
+<table border="0">
+<tr>
+<td>
+    <pre>
+!groups	dot 1,dot 2,dot 3
+!colors	#028482,#7ABA7A,yellow
+!title	Example of dot plot
+!legendstyle	circle
+!showLegends	1
+!byarea	1
+!grid	1
+!gridlabel	1
+!defaultStrokeColor	pink
+!dotplots	shape=circle,margin=2,colwidth=30,roundedcorner=3
+!showdataValue	show=1,fontsize=12,fontitalic=0,textalign=start,fontcolor=white
+A	8,13,5
+B	10,20,20
+C	8,9,7
+D	20,20,20
+</pre>
+</td>
+</tr>
+</table>
+
+... the texts of the 3rd column where the background color is yellow are unreadable:
+
+https://www.evernote.com/shard/s130/sh/5e8620f3-0619-40ff-9e14-e88492618f47/6544af9dd5045bf169748a251be24624/res/d5cf14a6-510b-48e7-91e3-de01c586cd31/skitch.png
