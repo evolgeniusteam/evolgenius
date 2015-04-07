@@ -67,6 +67,7 @@ The following 'modifiers' (Key-Value pairs) are supported for bar charts:
 || `!`colorgradientMarkLabel or `!`colorgradientMarkLabels || one or more valid numbers separated by ',' such as -3,2,5,7,9,10.5; see bellow for more examples  || numbers to be plotted in the legend next to the color gradient ||
 || `!`heatmapColumnLabel or `!`heatmapColumnLabels || one or more text strings separated by ',', such as trait 1,trait 2,control; see bellow for more examples  || texts to be plotted on the top of the heatmap, each text string corresponds to a column of the heatmap; *NOTE* not implemented yet in circular mode ||
 || `!`colorGradientPixelHeight or `!`colorGradientHeight || any integer > 1 || pixel height of the color gradient in the legend, default = 100 ||
+|| `!`colorGradientPixelWidth or `!`colorGradientWidth || any integer > 1 || pixel width of the color gradient in the legend, default = 15 ||
 || `!`heatmap || see section [EvolViewDatasetHeatmap#the_!heatmap_modifier the !heatmap modifier] || optional ||
 || _* show data values*_ ||  see section [EvolViewDatasetHeatmap#show_data_value show data value] for more details  || ||
 || _* unsupported modifiers *_ ||  modifiers that are not supported in Heatmap || ||
