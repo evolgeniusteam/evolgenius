@@ -6,9 +6,9 @@
 
 *_NOTE_*
 
-_please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
-
-*_please consult the tree 'heatmaps' in the DEMOS project to see the Heatmap in action_*
+ # _please send email to us (evolgenius.team@gmail.com) if you have any questions; attach your datasets and trees if necessary._
+ # *_please consult the tree 'heatmaps' in the DEMOS project to see the Heatmap in action_*
+ # when exported to pdf using Firefox, the color gradient in the legend is known to be wrong; therefore Google Chrome is strongly recommended.
 
 First, let's see some examples:
 
